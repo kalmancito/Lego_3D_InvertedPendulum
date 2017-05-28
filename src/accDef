@@ -1,0 +1,33 @@
+#define ACC IN_4 // Acelerometro
+#define SAMPLESIZE 500 
+
+int angulo;
+void leerACC();
+
+// Funcion para leer acelerometro
+void leerACC(){
+  int ax,ay,az;
+  string sAngulo;
+
+  ReadSensorHTAccel(ACC, ax, ay, az); // Leer ACC
+  angulo = atan2(ay,ax)*180/3.141592;
+
+  sAngulo = NumToStr(angulo);
+  sAngulo = StrCat("Angulo: ", sAngulo);
+  TextOut(0, LCD_LINE3, sAngulo); // Mostrar angulo
+  Wait(50);
+}
+
+// Funcion principal
+task main(){
+  // Se ponen en marcha los sensores
+  SetSensorLowspeed(ACC);
+  Wait(1000);
+
+  // Funcionamiento del robot
+  while(true){
+              leerACC(); // Leer acelerometro
+              ClearScreen(); // Limpiar pantalla
+              //psi = 0.98 *(angle+v) + 0.02*angle;
+  }
+}
