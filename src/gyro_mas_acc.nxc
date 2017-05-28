@@ -3,28 +3,30 @@
 #define GYRO   IN_1
 #define ACC   IN_4
 #define SAMPLESIZE 500
+#define MD OUT_A
+#define MI OUT_B
+
+
+
 float gOffset;
 float gyroSpeed=0;
-float angulo, angulo_ant;
+float angulo_g,angulo_a, angulo_ant_g=0,angulo=0;
+char err=0;
 unsigned int x1, x2, deltat;
+
 void calibracion();
 void leergyro();
+void leerACC();
 
 void calibracion(){
   
-
   int i, g;
   float gMin, gMax;
-
-
   TextOut(0,LCD_LINE1,"CALIBRACION");
-
-
           g = SensorHTGyro(GYRO);
           gMax = g;
           gMin = g;
-
-        gOffset = 0.0;
+          gOffset = 0.0;
         for (i=0; i<SAMPLESIZE; i++) {
            g = SensorHTGyro(GYRO);
 
@@ -39,9 +41,6 @@ void calibracion(){
            gOffset += g;
            Wait(5);
         }
-
-
-
      gOffset = gOffset/SAMPLESIZE -1;
 
     TextOut(0, LCD_LINE4, "Avg:     ");
@@ -50,7 +49,6 @@ void calibracion(){
     NumOut(6*4, LCD_LINE5, gMax);
     TextOut(0,LCD_LINE6,"Min:     ");
     NumOut(6*4, LCD_LINE6, gMin);
-
   }
 
 
@@ -63,11 +61,15 @@ void leergyro(){
       gyroRaw = SensorHTGyro(GYRO);
       gOffset = DEC_OFFSET * gyroRaw + (1-DEC_OFFSET) * gOffset;
       gyroSpeed = gyroRaw - floor(gOffset);
-
-
-
 }
 
+// Funcion para leer acelerometro
+void leerACC(){
+  int ax,ay,az;
+
+  ReadSensorHTAccel(ACC, ax, ay, az); // Leer ACC
+  angulo_a = atan2(ay,ax)*180/3.141592;
+}
 
 
 task main()
@@ -84,6 +86,7 @@ task main()
   int cSet[7];
  
   SetSensorHTGyro(GYRO);
+  SetSensorLowspeed(ACC);
   Wait(1000);
 
   //---------- CALIBRACION ---------------
@@ -97,8 +100,7 @@ task main()
   int cont=0;
   
   while(true){
-
-
+  err=0;
   x2 = CurrentTick();
   if (cont>0){
      deltat=x2-x1;
@@ -108,13 +110,24 @@ task main()
   }
   x1 = CurrentTick();
   leergyro();
-  
-  angulo=angulo_ant+gyroSpeed*deltat;
-  angulo_ant=angulo;
+  leerACC();
 
-  
+  angulo_g=angulo_ant_g+gyroSpeed*deltat*0.001;
+  angulo=0.97*angulo_g+0.03*angulo_a;
+  angulo_ant_g=angulo;
   //TextOut(0, LCD_LINE4, "tiempo:     ");
-  NumOut(0*4, LCD_LINE4, x2-x1);
+  NumOut(0*4, LCD_LINE4, angulo_g);
+  NumOut(0*4, LCD_LINE5, angulo_a);
+  NumOut(0*4, LCD_LINE6, angulo);
+  
+  err=-5*floor(angulo);
+
+  if (-5*floor(angulo)>100){err=100;}
+  if (-5*floor(angulo)<-100){err=-100;}
+   NumOut(0*4, LCD_LINE7, err);
+   OnFwd(MD,err);
+   OnFwd(MI,err);
+
   
   }
 }

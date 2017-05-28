@@ -1,0 +1,1007 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__float_stack_001leergyro	10	1	0	4	4
+1	__signed_stack_001main	6	1	4	4	16
+2	__float_stack_001calibracion	10	1	8	4	4
+3	__float_stack_001leerACC	10	1	12	4	4
+4	__signed_stack_002main	6	1	16	4	14
+5	gOffset	10	1	20	4	9
+6	gyroSpeed	10	1	24	4	2
+7	__float_stack_001main	10	1	28	4	8
+8	__float_stack_002main	10	1	32	4	2
+9	__signed_stack_002calibracion	6	1	36	4	14
+10	__D0main	6	1	40	4	24
+11	__DF0main	10	1	44	4	26
+12	__DF0leerACC	10	1	48	4	2
+13	__DF0leergyro	10	1	52	4	4
+14	__D0SetSensorLowspeed_inline_main	6	1	56	4	2
+15	__D0SensorHTGyro_inline_leergyro	6	1	60	4	4
+16	__signed_stack_001calibracion	6	1	64	4	20
+17	__DU0SetSensorLowspeed_inline_main	5	1	68	4	5
+18	__D0SensorHTGyro_inline_calibracion	6	1	72	4	8
+19	__atan2_7qG2_x_7qG2_000_inline_leerACC	10	1	76	4	2
+20	__constValf3P141592	10	0	80	4	1
+21	__floor_7qG2_x_7qG2_000_inline_leergyro	10	1	84	4	2
+22	__atan2_7qG2_y_7qG2_000_inline_leerACC	10	1	88	4	2
+23	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	92	4	4
+24	__constValf0P03	10	0	96	4	1
+25	__floor_7qG2_x_7qG2_000_inline_main	10	1	100	4	6
+26	__constValf0P001	10	0	104	4	1
+27	__constValf0P97	10	0	108	4	1
+28	__constValf0P99995	10	0	112	4	1
+29	angulo_ant_g	10	1	116	4	2
+30	angulo	10	1	120	4	6
+31	angulo_g	10	1	124	4	3
+32	angulo_a	10	1	128	4	3
+33	__calibracion_7qG2_gMin_7qG2_000	10	1	132	4	4
+34	__leergyro_7qG2_gyroRaw_7qG2_000	10	1	136	4	3
+35	__constValf0P00005	10	0	140	4	1
+36	__calibracion_7qG2_gMax_7qG2_000	10	1	144	4	4
+37	__Wait_7qG2_ms_7qG2_000_inline_calibracion	5	1	148	4	2
+38	__CLSWMutex3	9	0	152	4	2
+39	__CLSCSMutex3	9	0	156	4	2
+40	__CLSRMutex3	9	0	160	4	2
+41	__TextOutMutex	9	0	164	4	22
+42	__RLSBmutex3	9	0	168	4	2
+43	__D0calibracion	6	1	172	4	15
+44	__DF0calibracion	10	1	176	4	14
+45	__D0leerACC	6	1	180	4	1
+46	__calibracion_7qG2_g_7qG2_000	4	1	184	2	9
+47	__calibracion_7qG2_i_7qG2_000	4	1	186	2	4
+48	x1	3	1	188	2	2
+49	x2	3	1	190	2	2
+50	deltat	3	1	192	2	2
+51	__main_7qG2_cont_7qG2_000	4	1	194	2	4
+52	__leerACC_7qG2_az_7qG2_000	4	1	196	2	8
+53	__leerACC_7qG2_ax_7qG2_000	4	1	198	2	9
+54	__leerACC_7qG2_ay_7qG2_000	4	1	200	2	9
+55	__SensorHTGyro_7qG2_offset_7qG2_000_inline_leergyro	4	1	202	2	2
+56	__SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion	4	1	204	2	4
+57	__constVal600	4	0	206	2	3
+58	__constVal500	4	0	208	2	1
+59	__constVal200	4	0	210	2	4
+60	__constVal180	4	0	212	2	1
+61	__constVal256	4	0	214	2	3
+62	__SetSensorHTGyro_7qG2_port_7qG2_000_inline_main	1	1	216	1	4
+63	____initialize_global_data_return	1	1	217	1	3
+64	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	218	1	2
+65	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	219	1	2
+66	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	220	1	2
+67	__constVal127	2	0	221	1	3
+68	__constValNeg100	2	0	222	1	2
+69	__ResetSensorTmp	1	1	223	1	2
+70	__constVal5	2	0	224	1	1
+71	__ResetSensorPort	1	1	225	1	4
+72	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	226	1	2
+73	__constVal1	2	0	227	1	10
+74	__constVal0	2	1	228	1	12
+75	__constVal3	2	0	229	1	5
+76	__constVal63	2	0	230	1	2
+77	__constVal96	2	0	231	1	2
+78	__constVal32	2	0	232	1	6
+79	__constVal4	2	0	233	1	4
+80	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	234	1	2
+81	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	235	1	2
+82	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	236	1	4
+83	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	237	1	2
+84	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	238	1	2
+85	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	239	1	2
+86	__leerACC_return	1	1	240	1	3
+87	__RLSBResult3	2	1	241	1	8
+88	__SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion	1	1	242	1	4
+89	__RLSBIterations3	1	1	243	1	4
+90	__RLSBytesCount3	1	1	244	1	13
+91	____ReadLSBytes3_return	1	1	245	1	3
+92	err	2	1	246	1	7
+93	__LSWriteOptionsVar	1	1	247	1	2
+94	__constVal2	2	0	248	1	1
+95	__calibracion_return	1	1	249	1	3
+96	__constVal100	2	0	250	1	1
+97	__leergyro_return	1	1	251	1	3
+98	__SensorHTGyro_7qG2_port_7qG2_000_inline_leergyro	1	1	252	1	2
+99	____ResetSensorSubroutine_return	1	1	253	1	4
+100	__CLSWArgs3	8	0	4	12	5
+101	__CLSWArgs3.Result	2	1	256	1	5
+102	__CLSWArgs3.Port	1	1	257	1	5
+103	__CLSWArgs3.Buffer	7	0	258	4	5
+104	__CLSWArgs3.Buffer.Buffer_type	1	0	0	1	0
+105	__CLSWArgs3.ReturnLen	1	1	260	1	5
+106	__CLSCSArgs3	8	0	3	4	4
+107	__CLSCSArgs3.Result	2	1	264	1	4
+108	__CLSCSArgs3.Port	1	1	265	1	4
+109	__CLSCSArgs3.BytesReady	1	1	266	1	4
+110	__TextOutArgs	8	0	4	16	66
+111	__TextOutArgs.Result	2	1	268	1	66
+112	__TextOutArgs.Location	8	0	2	4	66
+113	__TextOutArgs.Location.X	4	1	272	2	66
+114	__TextOutArgs.Location.Y	4	1	274	2	66
+115	__TextOutArgs.Text	7	0	276	4	66
+116	__TextOutArgs.Text.Text_type	1	0	0	1	0
+117	__TextOutArgs.Options	5	1	280	4	66
+118	__PointOutArgs	8	0	3	12	8
+119	__PointOutArgs.Result	2	1	284	1	8
+120	__PointOutArgs.Location	8	0	2	4	8
+121	__PointOutArgs.Location.X	4	1	288	2	8
+122	__PointOutArgs.Location.Y	4	1	290	2	8
+123	__PointOutArgs.Options	5	1	292	4	8
+124	__CLSRArgs3	8	0	4	12	5
+125	__CLSRArgs3.Result	2	1	296	1	5
+126	__CLSRArgs3.Port	1	1	297	1	5
+127	__CLSRArgs3.Buffer	7	0	298	4	5
+128	__CLSRArgs3.Buffer.Buffer_type	1	0	0	1	0
+129	__CLSRArgs3.BufferLen	1	1	300	1	5
+130	__constStr0010	7	0	302	4	1
+131	__constStr0010.__constStr0010_type	1	1	0	1	0
+132	__constStr0011	7	0	304	4	1
+133	__constStr0011.__constStr0011_type	1	1	0	1	0
+134	__RLSReadBuf3	7	0	306	4	13
+135	__RLSReadBuf3.__RLSReadBuf3_type	1	0	0	1	0
+136	__LSWriteOptions	7	0	308	4	1
+137	__LSWriteOptions.__LSWriteOptions_type	1	0	0	1	0
+138	__constStr0012	7	0	310	4	1
+139	__constStr0012.__constStr0012_type	1	1	0	1	0
+140	__constStr0009	7	0	312	4	1
+141	__constStr0009.__constStr0009_type	1	1	0	1	0
+142	__RLSLastGoodRead3	7	0	314	4	2
+143	__RLSLastGoodRead3.__RLSLastGoodRead3_type	1	0	0	1	0
+144	__RLSBbufLSWrite1	7	0	316	4	1
+145	__RLSBbufLSWrite1.__RLSBbufLSWrite1_type	1	0	0	1	0
+146	__strbufcalibracion	7	0	318	4	8
+147	__strbufcalibracion.__strbufcalibracion_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	76	0	#line 76 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	77	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	76	2	#line 76 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	6921	2	#line 6921 "NXCDefs.h"
+0	6922	2	#pragma macro 6
+0	6922	2		mov __PointOutArgs.Location.X, __constVal200
+0	6922	4		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	6		mov __PointOutArgs.Options, __constVal1
+0	6922	8		syscall 14, __PointOutArgs
+0	7616	11	#line 7616 "NXCDefs.h"
+0	6921	11	#line 6921 "NXCDefs.h"
+0	76	11	#line 76 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	78	11	#line 78 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	78	11	#line 78 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	82	11	#line 82 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	83	11		set __D0main, 0
+0	82	14	#line 82 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	83	14	#line 83 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	84	14		set __D0main, 0
+0	83	17	#line 83 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	84	17	#line 84 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	85	17	#line 85 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	87	17	#line 87 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	88	17		set __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main, 0
+0	87	20	#line 87 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	14164	20	#line 14164 "NXCDefs.h"
+0	14165	20		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	14164	22	#line 14164 "NXCDefs.h"
+0	14164	22	#line 14164 "NXCDefs.h"
+0	14165	22		set __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main, 6
+0	14164	25	#line 14164 "NXCDefs.h"
+0	4428	25	#line 4428 "NXCDefs.h"
+0	4429	25		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, 0
+0	4428	29	#line 4428 "NXCDefs.h"
+0	14164	29	#line 14164 "NXCDefs.h"
+0	14165	29	#line 14165 "NXCDefs.h"
+0	14166	29		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	14165	31	#line 14165 "NXCDefs.h"
+0	14165	31	#line 14165 "NXCDefs.h"
+0	14166	31		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main, 0
+0	14165	34	#line 14165 "NXCDefs.h"
+0	4441	34	#line 4441 "NXCDefs.h"
+0	4442	34		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, 1
+0	4441	38	#line 4441 "NXCDefs.h"
+0	14165	38	#line 14165 "NXCDefs.h"
+0	14166	38	#line 14166 "NXCDefs.h"
+0	14166	38	#line 14166 "NXCDefs.h"
+0	4459	38	#line 4459 "NXCDefs.h"
+0	4460	38	#pragma macro 4
+0	4460	38		mov __ResetSensorPort, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	4460	40		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7754	42	#line 7754 "NXCDefs.h"
+0	4459	42	#line 4459 "NXCDefs.h"
+0	14166	42	#line 14166 "NXCDefs.h"
+0	87	42	#line 87 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	88	42	#line 88 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	89	42		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	88	45	#line 88 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	88	45	#line 88 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	89	45		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	47	#line 4523 "NXCDefs.h"
+0	4524	47		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	49	#line 4523 "NXCDefs.h"
+0	4523	49	#line 4523 "NXCDefs.h"
+0	4524	49		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	51	#line 4523 "NXCDefs.h"
+0	4524	51		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	54	#line 4523 "NXCDefs.h"
+0	4524	54		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	57	#line 4523 "NXCDefs.h"
+0	4524	57		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	60	#line 4523 "NXCDefs.h"
+0	4523	60	#line 4523 "NXCDefs.h"
+0	4524	60		jmp __004__ASM_Label_37
+0	4523	62	#line 4523 "NXCDefs.h"
+0	4524	62		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	65	#line 4523 "NXCDefs.h"
+0	4523	65	#line 4523 "NXCDefs.h"
+0	4524	65		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	67	#line 4428 "NXCDefs.h"
+0	4429	67		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	71	#line 4428 "NXCDefs.h"
+0	4523	71	#line 4523 "NXCDefs.h"
+0	4524	71	#line 4524 "NXCDefs.h"
+0	4525	71		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	73	#line 4524 "NXCDefs.h"
+0	4524	73	#line 4524 "NXCDefs.h"
+0	4525	73		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	76	#line 4524 "NXCDefs.h"
+0	4441	76	#line 4441 "NXCDefs.h"
+0	4442	76		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	80	#line 4441 "NXCDefs.h"
+0	4524	80	#line 4524 "NXCDefs.h"
+0	4525	80	#line 4525 "NXCDefs.h"
+0	4525	80	#line 4525 "NXCDefs.h"
+0	4459	80	#line 4459 "NXCDefs.h"
+0	4460	80	#pragma macro 4
+0	4460	80		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	82		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	7845	84	#line 7845 "NXCDefs.h"
+0	4459	84	#line 4459 "NXCDefs.h"
+0	4525	84	#line 4525 "NXCDefs.h"
+0	88	84	#line 88 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	89	84	#line 89 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	90	84		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	89	87	#line 89 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	8869	87	#line 8869 "NXCDefs.h"
+0	8870	87		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	89	#line 8869 "NXCDefs.h"
+0	89	89	#line 89 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	93	89	#line 93 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	94	89		subcall calibracion, __calibracion_return
+0	93	91	#line 93 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	94	91	#line 94 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	95	91		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	94	94	#line 94 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	8869	94	#line 8869 "NXCDefs.h"
+0	8870	94		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	96	#line 8869 "NXCDefs.h"
+0	94	96	#line 94 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	6921	96	#line 6921 "NXCDefs.h"
+0	6922	96	#pragma macro 6
+0	6922	96		mov __PointOutArgs.Location.X, __constVal200
+0	6922	98		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	100		mov __PointOutArgs.Options, __constVal1
+0	6922	102		syscall 14, __PointOutArgs
+0	7873	105	#line 7873 "NXCDefs.h"
+0	6921	105	#line 6921 "NXCDefs.h"
+0	96	105	#line 96 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	99	105	#line 99 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	100	105		set __main_7qG2_cont_7qG2_000, 0
+0	99	108	#line 99 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	101	108	#line 101 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	102	108		set __D0main, 1
+0	102	111	#line 102 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	111		tst 5, __D0main, __D0main
+0	102	114	#line 102 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	114		brtst 4, __ASM_Label_722, __D0main
+0	102	117	#line 102 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	117		set err, 0
+0	102	120	#line 102 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	102	120	#line 102 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	120	#line 103 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	104	120		gettick x2
+0	103	122	#line 103 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	122	#line 103 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	103	122	#line 103 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	104	122	#line 104 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	122		mov __signed_stack_001main, __main_7qG2_cont_7qG2_000
+0	104	124	#line 104 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	104	124	#line 104 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	124		set __D0main, 0
+0	104	127	#line 104 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	127		cmp 1, __D0main, __signed_stack_001main, __D0main
+0	105	131	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	106	131		brtst 4, __ASM_Label_731, __D0main
+0	105	134	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	134	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	134	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	134	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	106	134		sub deltat, x2, x1
+0	105	138	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	105	138	#line 105 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	108	138	#line 108 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	109	138		jmp __ASM_Label_734
+0	108	140	#line 108 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	109	140		add __main_7qG2_cont_7qG2_000, __main_7qG2_cont_7qG2_000, __constVal1
+0	108	144	#line 108 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	110	144	#line 110 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	110	144	#line 110 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	111	144		gettick x1
+0	110	146	#line 110 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	110	146	#line 110 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	110	146	#line 110 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	111	146	#line 111 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	112	146		subcall leergyro, __leergyro_return
+0	111	148	#line 111 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	112	148	#line 112 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	113	148		subcall leerACC, __leerACC_return
+0	112	150	#line 112 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	150	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	150		mov __float_stack_001main, angulo_ant_g
+0	114	152	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	152	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	152	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	152	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	152	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	152		mul __float_stack_002main, gyroSpeed, deltat
+0	114	156	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	156	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	156	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	156		mul __DF0main, __float_stack_002main, __constValf0P001
+0	114	160	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	160		add angulo_g, __float_stack_001main, __DF0main
+0	114	164	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	114	164	#line 114 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	164	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	164	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	164	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	164	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	116	164		mul __float_stack_001main, __constValf0P97, angulo_g
+0	115	168	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	168	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	168	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	168	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	168	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	116	168		mul __DF0main, __constValf0P03, angulo_a
+0	115	172	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	116	172		add angulo, __float_stack_001main, __DF0main
+0	115	176	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	115	176	#line 115 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	116	176	#line 116 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	117	176		mov angulo_ant_g, angulo
+0	116	178	#line 116 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	116	178	#line 116 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	118	178	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	178		set __signed_stack_001main, 0
+0	118	181	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	118	181	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	181		set __signed_stack_002main, 32
+0	118	184	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	118	184	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	184		mov __DF0main, angulo_g
+0	118	186	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	186		acquire __TextOutMutex
+0	118	187	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	187		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	118	189	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	189		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	118	191	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	191		set __TextOutArgs.Options, 0
+0	118	194	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	194		numtostr __TextOutArgs.Text, __DF0main
+0	118	197	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	197		syscall 13, __TextOutArgs
+0	118	200	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	200		mov __D0main, __TextOutArgs.Result
+0	118	202	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	202		release __TextOutMutex
+0	118	203	#line 118 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	203	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	203		set __signed_stack_001main, 0
+0	119	206	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	206	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	206		set __signed_stack_002main, 24
+0	119	209	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	119	209	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	209		mov __DF0main, angulo_a
+0	119	211	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	211		acquire __TextOutMutex
+0	119	212	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	212		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	119	214	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	214		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	119	216	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	216		set __TextOutArgs.Options, 0
+0	119	219	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	219		numtostr __TextOutArgs.Text, __DF0main
+0	119	222	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	222		syscall 13, __TextOutArgs
+0	119	225	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	225		mov __D0main, __TextOutArgs.Result
+0	119	227	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	227		release __TextOutMutex
+0	119	228	#line 119 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	228	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	228		set __signed_stack_001main, 0
+0	120	231	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	231	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	231		set __signed_stack_002main, 16
+0	120	234	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	120	234	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	234		mov __DF0main, angulo
+0	120	236	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	236		acquire __TextOutMutex
+0	120	237	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	237		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	120	239	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	239		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	120	241	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	241		set __TextOutArgs.Options, 0
+0	120	244	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	244		numtostr __TextOutArgs.Text, __DF0main
+0	120	247	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	247		syscall 13, __TextOutArgs
+0	120	250	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	250		mov __D0main, __TextOutArgs.Result
+0	120	252	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	121	252		release __TextOutMutex
+0	120	253	#line 120 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	122	253	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	123	253		set __signed_stack_001main, 0
+0	122	256	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	122	256	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	123	256		set __signed_stack_002main, 5
+0	122	259	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	122	259	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	123	259		mov __floor_7qG2_x_7qG2_000_inline_main, angulo
+0	122	261	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	19449	261	#line 19449 "NXCDefs.h"
+0	19450	261		floor __DF0main, __floor_7qG2_x_7qG2_000_inline_main
+0	19449	264	#line 19449 "NXCDefs.h"
+0	122	264	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	122	264	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	123	264		mul __DF0main, __signed_stack_002main, __DF0main
+0	122	268	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	123	268		sub err, __signed_stack_001main, __DF0main
+0	122	272	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	122	272	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	272	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	272		set __signed_stack_001main, 0
+0	124	275	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	275	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	275		set __signed_stack_002main, 5
+0	124	278	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	278	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	278		mov __floor_7qG2_x_7qG2_000_inline_main, angulo
+0	124	280	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	19449	280	#line 19449 "NXCDefs.h"
+0	19450	280		floor __DF0main, __floor_7qG2_x_7qG2_000_inline_main
+0	19449	283	#line 19449 "NXCDefs.h"
+0	124	283	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	283	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	283		mul __DF0main, __signed_stack_002main, __DF0main
+0	124	287	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	287		sub __float_stack_001main, __signed_stack_001main, __DF0main
+0	124	291	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	291	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	291		mov __DF0main, __constVal100
+0	124	293	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	293		cmp 1, __D0main, __float_stack_001main, __DF0main
+0	124	297	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	297		brtst 4, __ASM_Label_769, __D0main
+0	124	300	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	300		set err, 100
+0	124	303	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	124	303	#line 124 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	303	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	303	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	303		set __signed_stack_001main, 0
+0	125	306	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	306	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	306		set __signed_stack_002main, 5
+0	125	309	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	309	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	309		mov __floor_7qG2_x_7qG2_000_inline_main, angulo
+0	125	311	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	19449	311	#line 19449 "NXCDefs.h"
+0	19450	311		floor __DF0main, __floor_7qG2_x_7qG2_000_inline_main
+0	19449	314	#line 19449 "NXCDefs.h"
+0	125	314	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	314	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	314		mul __DF0main, __signed_stack_002main, __DF0main
+0	125	318	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	318		sub __float_stack_001main, __signed_stack_001main, __DF0main
+0	125	322	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	322	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	322		mov __DF0main, __constValNeg100
+0	125	324	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	324		cmp 0, __D0main, __float_stack_001main, __DF0main
+0	125	328	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	328		brtst 4, __ASM_Label_776, __D0main
+0	125	331	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	331		mov err, __constValNeg100
+0	125	333	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	125	333	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	333	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	333	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	333		set __signed_stack_001main, 0
+0	126	336	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	336	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	336		set __signed_stack_002main, 8
+0	126	339	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	126	339	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	339		mov __D0main, err
+0	126	341	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	341		acquire __TextOutMutex
+0	126	342	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	342		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	126	344	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	344		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	126	346	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	346		set __TextOutArgs.Options, 0
+0	126	349	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	349		numtostr __TextOutArgs.Text, __D0main
+0	126	352	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	352		syscall 13, __TextOutArgs
+0	126	355	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	355		mov __D0main, __TextOutArgs.Result
+0	126	357	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	357		release __TextOutMutex
+0	126	358	#line 126 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	358	#line 127 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	128	358		mov __D0main, err
+0	127	360	#line 127 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	128	360	#pragma macro 7
+0	128	360		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8289	383	#line 8289 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	127	383	#line 127 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	128	383	#line 128 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	129	383		mov __D0main, err
+0	128	385	#line 128 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	129	385	#pragma macro 7
+0	129	385		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	8296	408	#line 8296 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	128	408	#line 128 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	134	408	#line 134 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	135	408		jmp __ASM_Label_721
+0	134	410	#line 134 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+0	135	410		exit -1, -1
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	6632	0	#pragma macro 27
+2	6632	0		acquire __CLSWMutex3
+2	6632	1		index __LSWriteOptionsVar, __LSWriteOptions, __constVal3
+2	6632	5		or __CLSWArgs3.Port, __constVal3, __LSWriteOptionsVar
+2	6632	9		mov __CLSWArgs3.ReturnLen, __RLSBytesCount3
+2	6632	11		mov __CLSWArgs3.Buffer, __RLSReadBuf3
+2	6632	13		syscall 21, __CLSWArgs3
+2	6632	16		mov __RLSBResult3, __CLSWArgs3.Result
+2	6632	18		release __CLSWMutex3
+2	6632	19	#line 6632 "NXTDefs.h"
+2	6633	19		brtst 5, __RLSBError3, __RLSBResult3
+2	6634	22		set __RLSBIterations3, 60
+2	6636	25	#pragma macro 23
+2	6636	25		acquire __CLSCSMutex3
+2	6636	26		set __CLSCSArgs3.Port, 3
+2	6636	29		syscall 23, __CLSCSArgs3
+2	6636	32		mov __RLSBytesCount3, __CLSCSArgs3.BytesReady
+2	6636	34		mov __RLSBResult3, __CLSCSArgs3.Result
+2	6636	36		release __CLSCSMutex3
+2	6636	37	#line 6636 "NXTDefs.h"
+2	6637	37		sub __RLSBIterations3, __RLSBIterations3, __constVal1
+2	6638	41		brtst 2, __RLSBError3, __RLSBIterations3
+2	6639	44		brtst 0, __RLSBError3, __RLSBResult3
+2	6640	47		brtst 4, __RLSBReadyToRead3, __RLSBResult3
+2	6642	50		wait 1
+2	6643	52		jmp __RLSBDoCheckStatus3
+2	6645	54		brtst 4, __RLSBReturn3, __RLSBytesCount3
+2	6646	57		arrinit __RLSReadBuf3, __constVal0, __RLSBytesCount3
+2	6648	61	#pragma macro 25
+2	6648	61		acquire __CLSRMutex3
+2	6648	62		set __CLSRArgs3.Port, 3
+2	6648	65		mov __CLSRArgs3.BufferLen, __RLSBytesCount3
+2	6648	67		syscall 22, __CLSRArgs3
+2	6648	70		mov __RLSReadBuf3, __CLSRArgs3.Buffer
+2	6648	72		mov __RLSBResult3, __CLSRArgs3.Result
+2	6648	74		release __CLSRMutex3
+2	6648	75	#line 6648 "NXTDefs.h"
+2	6649	75		brtst 5, __RLSBError3, __RLSBResult3
+2	6650	78		mov __RLSLastGoodRead3, __RLSReadBuf3
+2	6651	80		jmp __RLSBDone3
+2	6653	82		mov __RLSReadBuf3, __RLSLastGoodRead3
+2	6655	84		arrsize __RLSBytesCount3, __RLSReadBuf3
+2	6657	87		subret ____ReadLSBytes3_return
+3	24	0	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	0		set __signed_stack_001calibracion, 0
+3	24	3	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	24	3	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	3		set __signed_stack_002calibracion, 56
+3	24	6	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	24	6	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	6		strcat __strbufcalibracion, __constStr0009
+3	24	10	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	10		acquire __TextOutMutex
+3	24	11	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	11		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	24	13	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	13		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	24	15	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	15		set __TextOutArgs.Options, 0
+3	24	18	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	18		mov __TextOutArgs.Text, __strbufcalibracion
+3	24	20	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	20		syscall 13, __TextOutArgs
+3	24	23	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	23		mov __D0calibracion, __TextOutArgs.Result
+3	24	25	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	25		release __TextOutMutex
+3	24	26	#line 24 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	26	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	26	26		set __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 0
+3	25	29	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	29	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	26	29		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion, __constVal0
+3	14222	31	#line 14222 "NXCDefs.h"
+3	14223	31		getin __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 2
+3	14224	35		sub __D0SensorHTGyro_inline_calibracion, __D0SensorHTGyro_inline_calibracion, __constVal600
+3	14225	39		sub __calibracion_7qG2_g_7qG2_000, __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion
+3	14226	43	#line 14226 "NXCDefs.h"
+3	25	43	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	43	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	25	43	#line 25 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	26	43	#line 26 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	27	43		mov __calibracion_7qG2_gMax_7qG2_000, __calibracion_7qG2_g_7qG2_000
+3	26	45	#line 26 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	26	45	#line 26 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	27	45	#line 27 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	28	45		mov __calibracion_7qG2_gMin_7qG2_000, __calibracion_7qG2_g_7qG2_000
+3	27	47	#line 27 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	27	47	#line 27 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	28	47	#line 28 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	29	47		mov gOffset, __constVal0
+3	28	49	#line 28 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	28	49	#line 28 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	29	49	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	49		set __calibracion_7qG2_i_7qG2_000, 0
+3	29	52	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	29	52	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	52		mov __signed_stack_001calibracion, __calibracion_7qG2_i_7qG2_000
+3	29	54	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	29	54	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	54		set __D0calibracion, 500
+3	29	57	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	57		cmp 0, __D0calibracion, __signed_stack_001calibracion, __D0calibracion
+3	29	61	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	61		brtst 4, __ASM_Label_629, __D0calibracion
+3	29	64	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	64		jmp __ASM_Label_630
+3	29	66	#line 29 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	66		add __calibracion_7qG2_i_7qG2_000, __calibracion_7qG2_i_7qG2_000, __constVal1
+3	30	70	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	31	70		jmp __ASM_Label_628
+3	30	72	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	31	72		set __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 0
+3	30	75	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	75	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	31	75		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion, __constVal0
+3	14222	77	#line 14222 "NXCDefs.h"
+3	14223	77		getin __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 2
+3	14224	81		sub __D0SensorHTGyro_inline_calibracion, __D0SensorHTGyro_inline_calibracion, __constVal600
+3	14225	85		sub __calibracion_7qG2_g_7qG2_000, __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion
+3	14226	89	#line 14226 "NXCDefs.h"
+3	30	89	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	89	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	30	89	#line 30 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	32	89	#line 32 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	33	89		mov __signed_stack_001calibracion, __calibracion_7qG2_g_7qG2_000
+3	32	91	#line 32 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	32	91	#line 32 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	33	91		mov __DF0calibracion, __calibracion_7qG2_gMax_7qG2_000
+3	32	93	#line 32 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	33	93		cmp 1, __D0calibracion, __signed_stack_001calibracion, __DF0calibracion
+3	33	97	#line 33 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	34	97		brtst 4, __ASM_Label_642, __D0calibracion
+3	33	100	#line 33 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	34	100		mov __calibracion_7qG2_gMax_7qG2_000, __calibracion_7qG2_g_7qG2_000
+3	33	102	#line 33 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	33	102	#line 33 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	35	102	#line 35 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	36	102		jmp __ASM_Label_645
+3	35	104	#line 35 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	36	104		mov __signed_stack_001calibracion, __calibracion_7qG2_g_7qG2_000
+3	35	106	#line 35 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	35	106	#line 35 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	36	106		mov __DF0calibracion, __calibracion_7qG2_gMin_7qG2_000
+3	35	108	#line 35 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	36	108		cmp 0, __D0calibracion, __signed_stack_001calibracion, __DF0calibracion
+3	37	112	#line 37 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	38	112		brtst 4, __ASM_Label_648, __D0calibracion
+3	37	115	#line 37 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	38	115		mov __calibracion_7qG2_gMin_7qG2_000, __calibracion_7qG2_g_7qG2_000
+3	37	117	#line 37 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	37	117	#line 37 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	40	117	#line 40 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	40	117	#line 40 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	40	117	#line 40 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	40	117	#line 40 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	41	117		add gOffset, gOffset, __calibracion_7qG2_g_7qG2_000
+3	40	121	#line 40 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	41	121	#line 41 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	42	121		set __Wait_7qG2_ms_7qG2_000_inline_calibracion, 5
+3	41	124	#line 41 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	8869	124	#line 8869 "NXCDefs.h"
+3	8870	124		waitv __Wait_7qG2_ms_7qG2_000_inline_calibracion
+3	8869	126	#line 8869 "NXCDefs.h"
+3	41	126	#line 41 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	43	126	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	126		jmp __ASM_Label_631
+3	43	128	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	43	128	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	128		mov __float_stack_001calibracion, gOffset
+3	43	130	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	43	130	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	130		mov __DF0calibracion, __constVal500
+3	43	132	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	132		div __float_stack_001calibracion, __float_stack_001calibracion, __DF0calibracion
+3	43	136	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	43	136	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	136		mov __DF0calibracion, __constVal1
+3	43	138	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	44	138		sub gOffset, __float_stack_001calibracion, __DF0calibracion
+3	43	142	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	43	142	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	45	142	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	142		set __signed_stack_001calibracion, 0
+3	45	145	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	45	145	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	145		set __signed_stack_002calibracion, 32
+3	45	148	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	45	148	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	148		strcat __strbufcalibracion, __constStr0010
+3	45	152	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	152		acquire __TextOutMutex
+3	45	153	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	153		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	45	155	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	155		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	45	157	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	157		set __TextOutArgs.Options, 0
+3	45	160	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	160		mov __TextOutArgs.Text, __strbufcalibracion
+3	45	162	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	162		syscall 13, __TextOutArgs
+3	45	165	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	165		mov __D0calibracion, __TextOutArgs.Result
+3	45	167	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	167		release __TextOutMutex
+3	45	168	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	168	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	168		set __signed_stack_001calibracion, 24
+3	46	171	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	171	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	171		set __signed_stack_002calibracion, 32
+3	46	174	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	46	174	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	174		mov __DF0calibracion, gOffset
+3	46	176	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	176		acquire __TextOutMutex
+3	46	177	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	177		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	46	179	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	179		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	46	181	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	181		set __TextOutArgs.Options, 0
+3	46	184	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	184		numtostr __TextOutArgs.Text, __DF0calibracion
+3	46	187	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	187		syscall 13, __TextOutArgs
+3	46	190	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	190		mov __D0calibracion, __TextOutArgs.Result
+3	46	192	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	192		release __TextOutMutex
+3	46	193	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	193	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	193		set __signed_stack_001calibracion, 0
+3	47	196	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	196	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	196		set __signed_stack_002calibracion, 24
+3	47	199	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	47	199	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	199		strcat __strbufcalibracion, __constStr0011
+3	47	203	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	203		acquire __TextOutMutex
+3	47	204	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	204		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	47	206	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	206		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	47	208	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	208		set __TextOutArgs.Options, 0
+3	47	211	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	211		mov __TextOutArgs.Text, __strbufcalibracion
+3	47	213	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	213		syscall 13, __TextOutArgs
+3	47	216	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	216		mov __D0calibracion, __TextOutArgs.Result
+3	47	218	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	218		release __TextOutMutex
+3	47	219	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	219	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	219		set __signed_stack_001calibracion, 24
+3	48	222	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	222	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	222		set __signed_stack_002calibracion, 24
+3	48	225	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	48	225	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	225		mov __DF0calibracion, __calibracion_7qG2_gMax_7qG2_000
+3	48	227	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	227		acquire __TextOutMutex
+3	48	228	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	228		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	48	230	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	230		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	48	232	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	232		set __TextOutArgs.Options, 0
+3	48	235	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	235		numtostr __TextOutArgs.Text, __DF0calibracion
+3	48	238	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	238		syscall 13, __TextOutArgs
+3	48	241	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	241		mov __D0calibracion, __TextOutArgs.Result
+3	48	243	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	243		release __TextOutMutex
+3	48	244	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	244	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	244		set __signed_stack_001calibracion, 0
+3	49	247	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	247	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	247		set __signed_stack_002calibracion, 16
+3	49	250	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	49	250	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	250		strcat __strbufcalibracion, __constStr0012
+3	49	254	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	254		acquire __TextOutMutex
+3	49	255	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	255		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	49	257	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	257		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	49	259	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	259		set __TextOutArgs.Options, 0
+3	49	262	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	262		mov __TextOutArgs.Text, __strbufcalibracion
+3	49	264	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	264		syscall 13, __TextOutArgs
+3	49	267	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	267		mov __D0calibracion, __TextOutArgs.Result
+3	49	269	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	269		release __TextOutMutex
+3	49	270	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	270	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	270		set __signed_stack_001calibracion, 24
+3	50	273	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	273	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	273		set __signed_stack_002calibracion, 16
+3	50	276	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	50	276	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	276		mov __DF0calibracion, __calibracion_7qG2_gMin_7qG2_000
+3	50	278	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	278		acquire __TextOutMutex
+3	50	279	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	279		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+3	50	281	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	281		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+3	50	283	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	283		set __TextOutArgs.Options, 0
+3	50	286	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	286		numtostr __TextOutArgs.Text, __DF0calibracion
+3	50	289	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	289		syscall 13, __TextOutArgs
+3	50	292	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	292		mov __D0calibracion, __TextOutArgs.Result
+3	50	294	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	51	294		release __TextOutMutex
+3	50	295	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	56	295	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+3	57	295		subret __calibracion_return
+4	60	0	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	0		set __SensorHTGyro_7qG2_port_7qG2_000_inline_leergyro, 0
+4	60	3	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	60	3	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	3		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_leergyro, __constVal0
+4	14222	5	#line 14222 "NXCDefs.h"
+4	14223	5		getin __D0SensorHTGyro_inline_leergyro, __SensorHTGyro_7qG2_port_7qG2_000_inline_leergyro, 2
+4	14224	9		sub __D0SensorHTGyro_inline_leergyro, __D0SensorHTGyro_inline_leergyro, __constVal600
+4	14225	13		sub __leergyro_7qG2_gyroRaw_7qG2_000, __D0SensorHTGyro_inline_leergyro, __SensorHTGyro_7qG2_offset_7qG2_000_inline_leergyro
+4	14226	17	#line 14226 "NXCDefs.h"
+4	60	17	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	60	17	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	60	17	#line 60 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	17	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	17	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	17	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	17	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	17		mul __float_stack_001leergyro, __constValf0P00005, __leergyro_7qG2_gyroRaw_7qG2_000
+4	61	21	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	21	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	21	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	21	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	21	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	21		mul __DF0leergyro, __constValf0P99995, gOffset
+4	61	25	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	25		add gOffset, __float_stack_001leergyro, __DF0leergyro
+4	61	29	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	61	29	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	29	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	63	29		mov __float_stack_001leergyro, __leergyro_7qG2_gyroRaw_7qG2_000
+4	62	31	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	31	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	63	31		mov __floor_7qG2_x_7qG2_000_inline_leergyro, gOffset
+4	62	33	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	19449	33	#line 19449 "NXCDefs.h"
+4	19450	33		floor __DF0leergyro, __floor_7qG2_x_7qG2_000_inline_leergyro
+4	19449	36	#line 19449 "NXCDefs.h"
+4	62	36	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	36	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	63	36		sub gyroSpeed, __float_stack_001leergyro, __DF0leergyro
+4	62	40	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	62	40	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	66	40	#line 66 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+4	67	40		subret __leergyro_return
+5	69	0	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	0	#pragma macro 72
+5	70	0		acquire __RLSBmutex3
+5	70	1		mov __RLSReadBuf3, __RLSBbufLSWrite1
+5	70	3		set __RLSBytesCount3, 6
+5	70	6		subcall __ReadLSBytes3, ____ReadLSBytes3_return
+5	70	8		tst 4, __D0leerACC, __RLSBResult3
+5	70	11		index __leerACC_7qG2_ax_7qG2_000, __RLSReadBuf3, 65535
+5	70	15		index __RLSBytesCount3, __RLSReadBuf3, __constVal3
+5	70	19		brcmp 2, __RSHTAX3, __leerACC_7qG2_ax_7qG2_000, __constVal127
+5	70	23		sub __leerACC_7qG2_ax_7qG2_000, __leerACC_7qG2_ax_7qG2_000, __constVal256
+5	70	27		mul __leerACC_7qG2_ax_7qG2_000, __leerACC_7qG2_ax_7qG2_000, __constVal4
+5	70	31		add __leerACC_7qG2_ax_7qG2_000, __leerACC_7qG2_ax_7qG2_000, __RLSBytesCount3
+5	70	35		index __leerACC_7qG2_ay_7qG2_000, __RLSReadBuf3, __constVal1
+5	70	39		index __RLSBytesCount3, __RLSReadBuf3, __constVal4
+5	70	43		brcmp 2, __RSHTAY4, __leerACC_7qG2_ay_7qG2_000, __constVal127
+5	70	47		sub __leerACC_7qG2_ay_7qG2_000, __leerACC_7qG2_ay_7qG2_000, __constVal256
+5	70	51		mul __leerACC_7qG2_ay_7qG2_000, __leerACC_7qG2_ay_7qG2_000, __constVal4
+5	70	55		add __leerACC_7qG2_ay_7qG2_000, __leerACC_7qG2_ay_7qG2_000, __RLSBytesCount3
+5	70	59		index __leerACC_7qG2_az_7qG2_000, __RLSReadBuf3, __constVal2
+5	70	63		index __RLSBytesCount3, __RLSReadBuf3, __constVal5
+5	70	67		brcmp 2, __RSHTAZ5, __leerACC_7qG2_az_7qG2_000, __constVal127
+5	70	71		sub __leerACC_7qG2_az_7qG2_000, __leerACC_7qG2_az_7qG2_000, __constVal256
+5	70	75		mul __leerACC_7qG2_az_7qG2_000, __leerACC_7qG2_az_7qG2_000, __constVal4
+5	70	79		add __leerACC_7qG2_az_7qG2_000, __leerACC_7qG2_az_7qG2_000, __RLSBytesCount3
+5	70	83		release __RLSBmutex3
+5	7557	84	#line 7557 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	69	84	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	69	84	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	84	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	71	84		mov __atan2_7qG2_y_7qG2_000_inline_leerACC, __leerACC_7qG2_ay_7qG2_000
+5	70	86	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	86	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	71	86		mov __atan2_7qG2_x_7qG2_000_inline_leerACC, __leerACC_7qG2_ax_7qG2_000
+5	70	88	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	19321	88	#line 19321 "NXCDefs.h"
+5	19322	88		atan2 __float_stack_001leerACC, __atan2_7qG2_y_7qG2_000_inline_leerACC, __atan2_7qG2_x_7qG2_000_inline_leerACC
+5	19321	92	#line 19321 "NXCDefs.h"
+5	70	92	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	92	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	92	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	71	92		mov __DF0leerACC, __constVal180
+5	70	94	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	71	94		mul __float_stack_001leerACC, __float_stack_001leerACC, __DF0leerACC
+5	70	98	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	98	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	98	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	71	98		div angulo_a, __float_stack_001leerACC, __constValf3P141592
+5	70	102	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	70	102	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	74	102	#line 74 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+5	75	102		subret __leerACC_return
+6	135	0	#line 135 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc"
+6	136	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc
+1	__ResetSensorSubroutine	413	NXTDefs.h
+2	__ReadLSBytes3	426	NXTDefs.h
+3	calibracion	515	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc
+4	leergyro	812	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc
+5	leerACC	854	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc
+6	__initialize_global_data	958	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\gyro_mas_acc.nxc
