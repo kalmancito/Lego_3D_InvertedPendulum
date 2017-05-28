@@ -1,0 +1,172 @@
+//Programme evolue V2.9
+//Reglage du controle de la roue avant en fonction de la velocidad de chute
+//Terme Integral et Proportionnel
+
+#define OFFSET_GYRO 11
+#define GYRO IN_1
+#define OFFSET_SAMPLE 100
+#define DECOFFSET 0.00005                          //coef de decalage de l'offset
+#define MOTOR OUT_C
+#define ROUE_ALANTE OUT_A
+#define ROUE_ATRAS OUT_B
+
+mutex angle;
+
+float gOffset;
+int tabRaw[] = {0,0,0};
+int marcador = 0;
+int sum ;
+
+bool inicio=true;
+// pour controle roue avant
+int rot, position, c, potenciaAvant;
+int tabErreur[] = {0,0};
+//main
+int gyroSpeed;
+int potencia = 0;
+//getgyrodata
+int gyroRaw;
+//declaration des tache pour pouvoir les ExitTo avant de les avoir ecrites
+task GetGyroData();
+task Control_avance();
+task Control_atras();
+task Control_linea();
+
+void GetGyroOffset()
+{
+   TextOut(0,LCD_LINE1,"CALIBRATION");
+   float gSum;
+   int i, gMin, gMax, g;
+   //int k=1;
+   do{
+      //NumOut(0,LCD_LINE1,k);
+      gSum = 0.0;
+      gMin = 1000;
+      gMax = -1000;
+      for (i=0; i<OFFSET_SAMPLE; i++) {
+         g = SensorHTGyro(GYRO);
+         if (g>gMax)
+            gMax = g;
+         else if (g<gMin)
+            gMin = g;
+         gSum += g;
+         Wait(5);//On attend un peu, de toute facon le capteur  ne peut prendre
+                 //que 300 mesures par seconde max.
+      }
+   } while ((gMax-gMin)>1);
+   gOffset = gSum/OFFSET_SAMPLE -1;//avec ce -1, permet de forcer l'offset a sa
+                                   //valeur une fois MOTORs en route.
+}
+
+task GetGyroData()
+{
+   while(true){
+      tabRaw[0] =  SensorHTGyro(GYRO);
+      tabRaw[1] =  SensorHTGyro(GYRO);
+      tabRaw[2] =  SensorHTGyro(GYRO);
+      gyroRaw = (tabRaw[0]+tabRaw[1]+tabRaw[2])/3;
+      gOffset = DECOFFSET * gyroRaw + (1-DECOFFSET) * gOffset;
+      gyroSpeed = gyroRaw - floor(gOffset);
+      Wait(5);
+
+   }
+}
+
+task Control_avance()
+{
+//gyroSpeed positif : tombe vers la gauche
+//velocidad roue avant positive : tourne vers la gauche.
+
+   position = 0;
+   int velocidad;
+   int n = 300;
+   int historique[300];
+   sum=0;
+   int i=0;
+   int espera_integral = 0;
+   float derival;
+
+   for (int j=0 ; j<n; j++)                           // Initialisation vecteur historique
+      historique[j]=0;
+
+   float P = 1.7;                                       // Constantes PID
+   float I = 0.007;
+   float D = 1;
+
+   /*float P = 1.9;                                       // Constantes PID
+   float I = 0.0031;
+   float D = 2.1; */
+   /*
+   float P = 1.9;
+   float I = 0.00127;
+   float D = 2.3;
+   */
+
+   while(true)
+   {
+      i++;
+      i=i%n;
+      sum-=historique[i];
+      historique[i]=gyroSpeed;
+      sum+=historique[i];
+      derival=historique[i]-historique[(i+n-1)%n];
+
+      if(gyroSpeed > 4 || gyroSpeed < -4)
+      {
+         velocidad = P*gyroSpeed+I*sum+D*derival;
+
+         if(velocidad >= 100)
+         {
+            velocidad = 99;
+         //   PlayTone(440, 100);                       // Detecter lorsque on depasse la velocidad maximale
+         }
+         OnFwd(ROUE_ALANTE,velocidad);
+         Wait(2);
+      }
+      else if (gyroSpeed <= 4 || gyroSpeed >= -4)
+           Off(ROUE_ALANTE);
+
+
+      espera_integral++;
+      Wait(2);
+   }
+}
+
+task Control_atras()
+{
+   while(true) {
+         OnFwd(ROUE_ATRAS, 90);
+         Wait(2);
+   }
+}
+
+task Affichage()
+{
+   while(true) {
+      ClearScreen();
+      NumOut(0,LCD_LINE4,position);
+
+      TextOut(0,LCD_LINE5,"gSpeed: ");
+      NumOut(40,LCD_LINE5,gyroSpeed);
+      TextOut(0,LCD_LINE7,"Raw: ");
+      NumOut(25,LCD_LINE7,gyroRaw);
+      NumOut(0,LCD_LINE8,floor(gOffset));
+      Wait(5);
+   }
+}
+
+task main()
+{
+   if (BatteryLevel() >= 7200){
+      PlayTone(440, 100);
+   }
+   Precedes(GetGyroData,Affichage,Control_avance,Control_atras);
+   SetSensorHTGyro(GYRO);
+   GetGyroOffset();
+}
+
+/* NOTES:
+
+//Constat : MotorTachoCount compte bien le nombre de degre de rotation de MOTOR
+//Attention! Rotation negative = MotorTachoCount negatif !
+*/

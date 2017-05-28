@@ -1,0 +1,138 @@
+
+ // HiTechnic API functions
+
+//#define SetSensorHTGyro(_p) \
+ // SetSensorType(_p, IN_TYPE_LIGHT_INACTIVE); \
+ // SetSensorMode(_p, IN_MODE_RAW); \
+ // ResetSensor(_p);
+
+//#define SensorHTGyro(_p, _offset) asm { \
+  //getin __RETVAL__, _p, RawValue \
+  //sub __RETVAL__, __RETVAL__, 600 \
+ // sub __RETVAL__, __RETVAL__, _offset \
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#define GYRO   IN_4
+#define SAMPLESIZE 500
+
+int iGyroValue,iAngle;
+string sGyroValue,sAngle;
+ /*
+task ShowGyroValue()
+{
+while(true)
+{
+// OffSet-value value has been calculated in bij
+// keeping sensor absoulutly still while executing 10
+// readings with an off-set of zero an then calculate
+// the average.
+
+// I get erratic reading, even when absolutely still
+
+iGyroValue = SensorHTGyro(IN_1, -6);
+sGyroValue = NumToStr(iGyroValue);
+sGyroValue=StrCat(sGyroValue," ");
+TextOut(0, LCD_LINE7, sGyroValue);
+iAngle = iAngle +iGyroValue;
+sAngle = NumToStr(iAngle);
+TextOut(0, LCD_LINE8, sAngle);
+Wait(500);
+}
+}
+  */
+  
+  
+  task music()
+{
+       while (true)
+       {
+          PlayTone(440, 100); //play tone for n miliseconds
+          Wait(SEC_1);
+       }
+}
+
+
+task main()
+{
+  int gx,gy,gz;
+  int v=0;
+  int an;
+  float angle,psi;
+  int vv, offset;
+  float gyroAvg, gyroSum = 0;
+  float factor=360/10400*45/8;
+  int data[SAMPLESIZE];
+  int cSet[7];
+  
+  SetSensorLowspeed(S1);
+  SetSensorHTGyro(GYRO);
+  Wait(1000);
+
+  //start music;
+  
+   for (int i=0; i<SAMPLESIZE; i++) {
+    vv = SensorHTGyro(GYRO);
+    data[i] = vv;
+    gyroSum += vv;
+    Wait(5);
+  }
+  
+  //stop music; // no funciona!! WTF?
+
+  PlayTone(440, 500);
+  
+  // Display floating point gyro average
+  gyroAvg = gyroSum/SAMPLESIZE;
+  TextOut(0, LCD_LINE1, "Avg:     ");
+  NumOut(6*4, LCD_LINE1, gyroAvg);
+  // Round to nearest int
+  offset = gyroAvg;
+   Wait(500);
+
+  //
+  
+  
+    start ShowGyroValue;
+
+    //OnFwd(OUT_AB, 100); Wait(3000);
+    //OnRev(OUT_AB, 75); Wait(3000);
+
+  
+  
+  
+  
+  //
+  while(true) {
+  
+              //RotateMotorPID(OUT_A, 75, 45, 20, 40, 100);
+              //Wait(1000)  ;
+   // RotateMotorPID(OUT_B, 75, -90, 20, 40, 100);
+//Wait(1000)  ;
+    ReadSensorHTAccel(S1, gx, gy, gz);
+    angle=atan2(gy,gx)*180/3.141592;
+    TextOut(0,  LCD_LINE3, "a:     ");
+    NumOut(6*2, LCD_LINE3, angle);
+    v = v+(SensorHTGyro(GYRO,offset))*0.01;
+
+      TextOut(0, LCD_LINE4, "G:      ");
+      NumOut(6*2, LCD_LINE4, SensorHTGyro(GYRO));
+
+
+      psi = 0.98 *(angle+v) + 0.02*angle;
+            TextOut(0, LCD_LINE5, "P:      ");
+            NumOut(6*2, LCD_LINE5, v);
+          Wait(8);
+  }
+}
