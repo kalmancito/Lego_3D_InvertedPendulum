@@ -4,10 +4,10 @@
 #define ACC   IN_4
 #define SAMPLESIZE 500
 float gOffset;
-float gyroSpeed;
+float gyroSpeed=0;
 
 void calibracion();
-task leergyro();
+void leergyro();
 
 void calibracion(){
   
@@ -50,32 +50,26 @@ void calibracion(){
     TextOut(0,LCD_LINE6,"Min:     ");
     NumOut(6*4, LCD_LINE6, gMin);
 
-  Wait(5000);
-
   }
 
 
 
 
-task leerGyro(){
+void leergyro(){
 
  float gyroRaw;
 
-   while(true){
-  
       gyroRaw = SensorHTGyro(GYRO);
       gOffset = DEC_OFFSET * gyroRaw + (1-DEC_OFFSET) * gOffset;
       gyroSpeed = gyroRaw - floor(gOffset);
-      Wait(5);
 
-   }
 }
 
 
 
 task main()
 {
-
+ ClearScreen();
   int ax,ay,az;
   int v=0;
   int an;
@@ -88,8 +82,21 @@ task main()
  
   SetSensorHTGyro(GYRO);
   Wait(1000);
-   ClearScreen();
-   calibracion();
-    TextOut(0, LCD_LINE7, "Avg:     ");
-    NumOut(6*4, LCD_LINE7, gOffset);
+
+  //---------- CALIBRACION ---------------
+
+  calibracion();
+  Wait(1000);
+  
+  ClearScreen();
+  //----- LEER GYRO EN BUCLE INFINITO-----
+
+  while(true){
+    
+  leergyro();
+  
+  TextOut(0, LCD_LINE4, "velocidad:     ");
+  NumOut(6*4, LCD_LINE4, gyroSpeed);
+  
+  }
 }
