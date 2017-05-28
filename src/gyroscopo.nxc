@@ -5,7 +5,8 @@
 #define SAMPLESIZE 500
 float gOffset;
 float gyroSpeed=0;
-
+float angulo, angulo_ant;
+unsigned int x1, x2, deltat;
 void calibracion();
 void leergyro();
 
@@ -63,6 +64,8 @@ void leergyro(){
       gOffset = DEC_OFFSET * gyroRaw + (1-DEC_OFFSET) * gOffset;
       gyroSpeed = gyroRaw - floor(gOffset);
 
+
+
 }
 
 
@@ -91,12 +94,27 @@ task main()
   ClearScreen();
   //----- LEER GYRO EN BUCLE INFINITO-----
 
+  int cont=0;
+  
   while(true){
-    
+
+
+  x2 = CurrentTick();
+  if (cont>0){
+     deltat=x2-x1;
+     }
+  else{
+  cont++;
+  }
+  x1 = CurrentTick();
   leergyro();
   
-  TextOut(0, LCD_LINE4, "velocidad:     ");
-  NumOut(6*4, LCD_LINE4, gyroSpeed);
+  angulo=angulo_ant+gyroSpeed*deltat;
+  angulo_ant=angulo;
+
+  
+  //TextOut(0, LCD_LINE4, "tiempo:     ");
+  NumOut(0*4, LCD_LINE4, x2-x1);
   
   }
 }
