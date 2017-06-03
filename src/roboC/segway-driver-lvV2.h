@@ -27,6 +27,7 @@ y tambien lo usa para girar.
 */
 #define MD motorB
 #define MI motorC
+#define SAMPLESIZE 40
 
 int pivotar = 0;
 int acceleration = 50;
@@ -148,7 +149,7 @@ task control()
 
   	//ADJUST MOTOR SPEED TO pivotar AND SYNCHING
     if(pivotar == 0){
-        if(last_pivotar != 0){
+        if(last_pivotar != 0){ //para que vaya recto.
 	        straight = nMotorEncoder[MI] - nMotorEncoder[MD];}
 		    d_pwr = (nMotorEncoder[MI] - nMotorEncoder[MD] - straight)/(radius*10/1);}
     else{d_pwr = pivotar/(radius*10/1);}
@@ -163,7 +164,7 @@ task control()
     if(abs(th)>60 || abs(motorpower) > 2000){
       StopAllTasks();}
 
-   //WAIT THEN REPEAT
+   //WAIT THEN REPEAT, ----la magia!
   	while(time1[T4] < dt*1000){
   	  wait1Msec(1);}
   	ClearTimer(T4);
@@ -182,7 +183,7 @@ int calibrar()
  nxtDisplayTextLine(2,"Calibrating");
  nxtDisplayTextLine(3,"HiTechnic Gyro..");
 
- for(p = 0; p < 40;p++){
+ for(p = 0; p < SAMPLESIZE;p++){
     bias = bias + SensorRaw[Gyro];
     wait1Msec(50);}
  bias = bias/40;

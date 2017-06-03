@@ -19,18 +19,18 @@ task main()
 	 ClearTimer(T2);
   	while(time1[T2]<2000){
   speed =20;
-  steering = 0;
+  pivotar = 0;
   }
   ClearTimer(T2);
   	while(time1[T2]<5000){
   speed =0;
-  steering = -10;
+  pivotar = -10;
   }
 
   ClearTimer(T2);
   	while(time1[T2]<4000){
   speed =10;
-  steering = 0;
+  pivotar = 0;
   }
 
 }
