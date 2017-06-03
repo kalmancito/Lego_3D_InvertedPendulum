@@ -11,6 +11,20 @@ avoiding walls. The following examples make use of this driver:
  - Example #2: Segway-NoAction.c
  - Example #3: Segway-Encoders.c
 */
+
+/*
+LEEME!!
+
+
+codigo nuevo, funcionando poniendo depie el robot, en RoboC
+
+la estrategia de control es exactamente la que difinio Fran. Lleva solo un
+gyro, con un filtro paso altos, para eliminar el bias, ademas de
+calibrarlo al principio.
+
+Lee los dos motores para ver la diferencia de avance y compensarla,
+y tambien lo usa para girar.
+*/
 #define MD motorB
 #define MI motorC
 
