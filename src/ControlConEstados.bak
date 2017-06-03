@@ -1,0 +1,278 @@
+#define DEC_OFFSET 5e-5
+#define GYRO   IN_2   // Puerto 1: giroscopo
+#define ACC   IN_4    // Puerto 4: acelerometro
+#define SAMPLESIZE 40   // Numero muestras calibracion
+#define MD OUT_A   // Puerto A: motor derecho
+#define MI OUT_B   // Puerto B: motor izquierdo
+#define M OUT_AB
+#define WAIT 8
+#define TCAIDA 1000
+
+#define KGA 25.00//-4.823//-8.58//negativo //ANGULO ROBOT
+#define KGS 0.23//2.6//3.153//positivo //D ANGULO ROBOT
+#define KA  272.8//-0.08//-0.18// negativo //POSICION
+#define KS 24.6//-0.11//-0.13// negativo //D POSICION
+
+#define P 0.0336
+#define D 0.000504
+#define I 0.2688
+
+
+
+
+//MATH CONSTANTS
+  const float radius = 0.054/1000;
+  const float degtorad = 3.141592/180;
+
+float gOffset, velGyro, dt, ang=0,angant, angGyro, angAcc,y,dy;
+float posMotor, velMotor;
+int u = 0,steering = 0,last_steering=0,d_pwr = 0,straight=0;
+long tIni;
+
+  const int n_max = 7;            // Number of measurement used for floating motor speed average
+int n = 0,n_comp = 0,           // Intermediate variables needed to compute measured motor speed
+  encoder[n_max];                 // Array containing last n_max motor positions
+
+void calibracion();
+void leerGyro();
+void leerACC();
+
+void calibracion(){
+  
+  int i, g, gMax, gMin;
+  //float gMin, gMax;
+  Off(M);
+  do{
+        TextOut(0,LCD_LINE1,"CALIBRACION");
+          g = SensorHTGyro(GYRO);
+          gMax = g;
+          gMin = g;
+          gOffset = 0.0;
+        for (i=0; i<SAMPLESIZE; i++) {
+           g = SensorHTGyro(GYRO);
+
+           if (g>gMax){
+              gMax = g;
+              }
+           else if (g<gMin){
+
+              gMin = g;
+              }
+
+           gOffset += g;
+           Wait(50);
+        }
+        }while((gMax - gMin) > 1)
+     gOffset = gOffset/SAMPLESIZE + 1;
+
+    TextOut(0, LCD_LINE4, "Avg:     ");
+    NumOut(6*4, LCD_LINE4, gOffset);
+    TextOut(0,LCD_LINE5,"Max:     ");
+    NumOut(6*4, LCD_LINE5, gMax);
+    TextOut(0,LCD_LINE6,"Min:     ");
+    NumOut(6*4, LCD_LINE6, gMin);
+  }
+
+
+
+// Funcion para leer giroscopo
+void leerGyro(){
+     float medGyro;
+
+      medGyro = SensorHTGyro(GYRO);
+      Wait(1);
+      medGyro = (medGyro +SensorHTGyro(GYRO))/2;
+      gOffset = DEC_OFFSET * medGyro + (1-DEC_OFFSET) * gOffset;
+      velGyro = medGyro - gOffset;
+      angGyro = ang + velGyro*dt;
+}
+
+// Funcion para leer acelerometro
+void leerAcc(){
+     int ax,ay,az;
+     ReadSensorHTAccel(ACC, ax, ay, az);
+     angAcc = atan2(ay,ax)*180/3.141592;
+}
+
+  void leerMotores(){
+
+    long mrc = 0, mrcAnt;
+    long dmrc, dmrc2 = 0, dmrc3 = 0, dmrc4 = 0,dmrc5=0;
+
+    mrcAnt = mrc;
+    mrc = (MotorTachoCount(MI)+MotorTachoCount(MD))/2;
+
+    dmrc = mrc - mrcAnt;
+
+    //posMotor += dmrc;
+   posMotor= MotorRotationCount(MI)+MotorRotationCount(MD);
+    //encoder[n] = MotorRotationCount(MD)+ MotorRotationCount(MI) + y_ref;
+        /*
+        //COMPUTE MOTOR ENCODER POSITION AND SPEED
+        n++;
+        if(n == n_max){
+          n = 0;
+        }
+        encoder[n] = nMotorEncoder[motorB] + nMotorEncoder[motorC] + y_ref;
+        n_comp = n+1;
+        if(n_comp == n_max){
+          n_comp = 0;
+        }
+
+        y = encoder[n]*degtorad*radius/gear_down_ratio;
+      
+        dy_dt = (encoder[n] - encoder[n_comp])/(dt*(n_max-1))*degtorad*radius/gear_down_ratio;*/
+     y = posMotor*degtorad*radius;
+
+    velMotor = (dmrc+dmrc2+dmrc3+dmrc4+dmrc5)/(5*dt);
+
+    dy=velMotor*degtorad*radius;
+
+    dmrc5 =dmrc4 ;
+    dmrc4 = dmrc3;
+    dmrc3 = dmrc2;
+    dmrc2 = dmrc;
+  }
+
+inline void CalcularTiempo(long cont){
+       if(cont == 0){
+          dt = 0.0165;
+          tIni = CurrentTick();
+       } else{
+          dt = (CurrentTick() - tIni)/(cont*1000.0);
+       }
+}
+
+
+task main() {
+  ClearScreen();
+  int vv, offset;
+
+  SetSensorHTGyro(GYRO);
+  SetSensorLowspeed(ACC);
+  Wait(1000);
+
+  //---------- CALIBRACION ---------------
+
+  calibracion();
+  Wait(3000);
+  PlayTone(500,50);
+  
+  ClearScreen();
+}
+
+task Control(){
+
+  Follows(main);
+  
+  long cont = 0;
+  long tMotorPosOK;
+  int uAnt, du,iu;
+  
+  ClearScreen();
+  
+  tMotorPosOK = CurrentTick();
+  //ResetRotationCount(MD);
+ // ResetRotationCount(MI);
+
+  while(true){
+
+  CalcularTiempo(cont++);
+ 
+  if(cont%20 == 0){
+  ClearScreen();
+  }
+  
+  leerGyro();
+  leerAcc();
+ // leerMotores();
+//COMPUTE MOTOR ENCODER POSITION AND SPEED
+    n++;
+    if(n == n_max){
+      n = 0;
+    }
+
+
+    encoder[n] = MotorRotationCount(MI)+MotorRotationCount(MD);
+
+    n_comp = n+1;
+    if(n_comp == n_max){
+      n_comp = 0;
+    }
+
+    y = encoder[n]*degtorad*radius/gear_down_ratio;
+  
+    dy = (encoder[n] - encoder[n_comp])/(dt*(n_max-1))*degtorad*radius;
+
+    //
+
+
+
+
+
+  angant=ang;
+  
+  ang = 0.9*angGyro + 0.1*angAcc;
+
+  
+  u = KGA*ang + KGS*velGyro + KS*dy+KA*y;
+  du = (u - uAnt)/dt;
+  iu = u + uAnt*dt;
+   uAnt = u;
+
+  u = (P*u+ D*du+I*iu)/radius;
+  /*
+
+//ADJUST REFERENCE POSITION ON SPEED AND ACCELERATION
+    if(v < speed*10){
+    v = v + acceleration*10*dt;}
+    else if(v > speed*10){
+    v = v - acceleration*10*dt;}
+    y_ref = y_ref + v*dt;
+
+    
+
+    //COMPUTE COMBINED ERROR AND PID VALUES
+
+    e = gn_th * th + gn_dth_dt * dth_dt + gn_y * y + gn_dy_dt * dy_dt;
+    de_dt = (e - e_prev)/dt;
+    _edt = _edt + e*dt;
+    e_prev = e;
+    pid = (kp*e + ki*_edt + kd*de_dt)/radius*gear_down_ratio;
+*/
+    //ADJUST MOTOR SPEED TO STEERING AND SYNCHING
+    if(steering == 0){
+        if(last_steering != 0){
+        straight =  MotorRotationCount(MI) -  MotorRotationCount(MD);}
+        d_pwr = (MotorRotationCount(MI) -  MotorRotationCount(MD) - straight)/radius*10;}
+    else{d_pwr = steering/(radius*10);}
+    last_steering = steering;
+
+    //CONTROL MOTOR POWER AND STEERING
+      OnFwd(MD,u + d_pwr);
+      OnFwd(MI, u - d_pwr);
+
+  
+
+
+  if(u > 100){
+       u = 100;
+  } else if(u < -100){
+       u = -100;
+  }
+
+ // OnFwd(M, u);
+
+ // NumOut(0*4, LCD_LINE1, angGyro);
+ // NumOut(0*4, LCD_LINE2, velGyro);
+ // NumOut(0*4, LCD_LINE3, angAcc);
+ // NumOut(0*4, LCD_LINE4, ang);
+  NumOut(0*4, LCD_LINE5, dt);
+ // NumOut(0*4, LCD_LINE6, posMotor);
+ // NumOut(0*4, LCD_LINE7, velMotor);
+ // NumOut(0*4, LCD_LINE8, u);
+
+  }
+  Off(M);
+}
+

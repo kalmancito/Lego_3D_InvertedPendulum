@@ -1,0 +1,1150 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_001main	6	1	0	4	2
+1	__float_stack_002Control	10	1	4	4	4
+2	__float_stack_001Control	10	1	8	4	30
+3	__signed_stack_002main	6	1	12	4	2
+4	__signed_stack_002CalcularTiempo_inline_Control	6	1	16	4	2
+5	__signed_stack_001CalcularTiempo_inline_Control	6	1	20	4	4
+6	__signed_stack_003main	6	1	24	4	2
+7	__signed_stack_001calibracion	6	1	28	4	22
+8	__DF0CalcularTiempo_inline_Control	10	1	32	4	4
+9	__D0CalcularTiempo_inline_Control	6	1	36	4	4
+10	__signed_stack_002calibracion	6	1	40	4	14
+11	__signed_stack_002Control	6	1	44	4	6
+12	__signed_stack_001Control	6	1	48	4	46
+13	__float_stack_001calibracion	10	1	52	4	4
+14	dy	10	1	56	4	2
+15	y	10	1	60	4	2
+16	angGyro	10	1	64	4	5
+17	__Control_7qG2_cont_7qG2_000	6	1	68	4	5
+18	tIni	6	1	72	4	2
+19	__Wait_7qG2_ms_7qG2_000_inline_calibracion	5	1	76	4	2
+20	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	80	4	4
+21	degtorad	10	0	84	4	2
+22	radius	10	0	88	4	4
+23	__unsigned_stack_001CalcularTiempo_inline_Control	5	1	92	4	2
+24	gOffset	10	1	96	4	10
+25	ang	10	1	100	4	2
+26	dt	10	1	104	4	7
+27	velGyro	10	1	108	4	4
+28	__D0SensorHTGyro_inline_Control	6	1	112	4	8
+29	__constValf0P999	10	0	116	4	1
+30	__TextOutMutex	9	0	120	4	16
+31	__constValf0P001	10	0	124	4	1
+32	__constValf0P0165	10	0	128	4	1
+33	__PointOutMutex	9	0	132	4	8
+34	__Wait_7qG2_ms_7qG2_000_inline_Control	5	1	136	4	2
+35	__constValf0P23	10	0	140	4	1
+36	__constValf0P000504	10	0	144	4	1
+37	__constValf0P2688	10	0	148	4	1
+38	__constValf0P00054	10	0	152	4	1
+39	__constValf24P6	10	0	156	4	1
+40	__constValf272P8	10	0	160	4	1
+41	__constValf0P0336	10	0	164	4	1
+42	__DF0Control	10	1	168	4	26
+43	__D0Control	6	1	172	4	58
+44	__DF0calibracion	10	1	176	4	6
+45	__D0main	6	1	180	4	3
+46	__D0SensorHTGyro_inline_calibracion	6	1	184	4	8
+47	__DU0SetSensorLowspeed_inline_main	5	1	188	4	5
+48	__D0SetSensorLowspeed_inline_main	6	1	192	4	2
+49	__SPTArgsMutex	9	0	196	4	2
+50	__CalcularTiempo_7qG2_cont_7qG2_000_inline_Control	6	1	200	4	2
+51	__D0calibracion	6	1	204	4	27
+52	__calibracion_7qG2_gMin_7qG2_000	4	1	208	2	5
+53	__SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion	4	1	210	2	4
+54	__calibracion_7qG2_i_7qG2_000	4	1	212	2	4
+55	__calibracion_7qG2_g_7qG2_000	4	1	214	2	9
+56	__calibracion_7qG2_gMax_7qG2_000	4	1	216	2	5
+57	__Control_7qG2_iu_7qG2_000	4	1	218	2	2
+58	__Control_7qG2_du_7qG2_000	4	1	220	2	2
+59	__Control_7qG2_uAnt_7qG2_000	4	1	222	2	3
+60	__constVal600	4	0	224	2	4
+61	__constVal1000	4	0	226	2	1
+62	__SensorHTGyro_7qG2_offset_7qG2_000_inline_Control	4	1	228	2	4
+63	last_steering	4	1	230	2	2
+64	d_pwr	4	1	232	2	4
+65	straight	4	1	234	2	2
+66	steering	4	1	236	2	3
+67	u	4	1	238	2	12
+68	__constVal200	4	0	240	2	8
+69	n_max	4	0	242	2	1
+70	n	4	1	244	2	8
+71	n_comp	4	1	246	2	4
+72	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	248	1	2
+73	__constVal64	2	0	249	1	2
+74	__constValNeg100	2	0	250	1	2
+75	__constVal1	2	0	251	1	16
+76	__constVal32	2	0	252	1	12
+77	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	253	1	2
+78	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	254	1	2
+79	__ResetSensorTmp	1	1	255	1	2
+80	__constVal0	2	1	256	1	25
+81	__constVal3	2	0	257	1	4
+82	__ResetSensorPort	1	1	258	1	4
+83	__SensorHTGyro_7qG2_port_7qG2_000_inline_Control	1	1	259	1	4
+84	__constVal10	2	0	260	1	1
+85	____ResetSensorSubroutine_return	1	1	261	1	4
+86	__constVal2	2	0	262	1	1
+87	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main	1	1	263	1	2
+88	__calibracion_return	1	1	264	1	3
+89	____initialize_global_data_return	1	1	265	1	3
+90	__SetSensorHTGyro_7qG2_port_7qG2_000_inline_main	1	1	266	1	4
+91	__constVal96	2	0	267	1	4
+92	__constVal63	2	0	268	1	4
+93	__SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion	1	1	269	1	4
+94	__constVal40	2	0	270	1	1
+95	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	271	1	2
+96	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	272	1	2
+97	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	273	1	2
+98	__SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main	1	1	274	1	2
+99	__SetSensorLowspeed_7qG2_port_7qG2_000_inline_main	1	1	275	1	4
+100	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main	1	1	276	1	2
+101	__SPTArgs	8	0	5	8	6
+102	__SPTArgs.Result	2	1	280	1	6
+103	__SPTArgs.Frequency	3	1	282	2	6
+104	__SPTArgs.Duration	3	1	284	2	6
+105	__SPTArgs.Loop	1	1	286	1	6
+106	__SPTArgs.Volume	1	1	287	1	6
+107	__TextOutArgs	8	0	4	16	48
+108	__TextOutArgs.Result	2	1	288	1	48
+109	__TextOutArgs.Location	8	0	2	4	48
+110	__TextOutArgs.Location.X	4	1	292	2	48
+111	__TextOutArgs.Location.Y	4	1	294	2	48
+112	__TextOutArgs.Text	7	0	296	4	48
+113	__TextOutArgs.Text.Text_type	1	0	0	1	0
+114	__TextOutArgs.Options	5	1	300	4	48
+115	__PointOutArgs	8	0	3	12	16
+116	__PointOutArgs.Result	2	1	304	1	16
+117	__PointOutArgs.Location	8	0	2	4	16
+118	__PointOutArgs.Location.X	4	1	308	2	16
+119	__PointOutArgs.Location.Y	4	1	310	2	16
+120	__PointOutArgs.Options	5	1	312	4	16
+121	encoder	7	0	316	4	6
+122	encoder.encoder_type	4	0	0	2	0
+123	__OUT_AB	7	0	318	4	2
+124	__OUT_AB.__OUT_AB_type	1	0	0	1	0
+125	__constStr0012	7	0	320	4	1
+126	__constStr0012.__constStr0012_type	1	1	0	1	0
+127	__strbufcalibracion	7	0	322	4	8
+128	__strbufcalibracion.__strbufcalibracion_type	1	0	0	1	0
+129	__constStr0011	7	0	324	4	1
+130	__constStr0011.__constStr0011_type	1	1	0	1	0
+131	__constStr0009	7	0	326	4	1
+132	__constStr0009.__constStr0009_type	1	1	0	1	0
+133	__constStr0010	7	0	328	4	1
+134	__constStr0010.__constStr0010_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	131	0	#line 131 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	132	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	131	2	#line 131 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	6921	2	#line 6921 "NXCDefs.h"
+0	6922	2	#pragma macro 6
+0	6922	2		acquire __PointOutMutex
+0	6922	3		mov __PointOutArgs.Location.X, __constVal200
+0	6922	5		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	7		mov __PointOutArgs.Options, __constVal1
+0	6922	9		syscall 14, __PointOutArgs
+0	6922	12		release __PointOutMutex
+0	8477	13	#line 8477 "NXCDefs.h"
+0	6921	13	#line 6921 "NXCDefs.h"
+0	131	13	#line 131 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	134	13	#line 134 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	135	13		set __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main, 1
+0	134	16	#line 134 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	14164	16	#line 14164 "NXCDefs.h"
+0	14165	16		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	14164	18	#line 14164 "NXCDefs.h"
+0	14164	18	#line 14164 "NXCDefs.h"
+0	14165	18		set __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main, 6
+0	14164	21	#line 14164 "NXCDefs.h"
+0	4428	21	#line 4428 "NXCDefs.h"
+0	4429	21		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, 0
+0	4428	25	#line 4428 "NXCDefs.h"
+0	14164	25	#line 14164 "NXCDefs.h"
+0	14165	25	#line 14165 "NXCDefs.h"
+0	14166	25		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	14165	27	#line 14165 "NXCDefs.h"
+0	14165	27	#line 14165 "NXCDefs.h"
+0	14166	27		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main, 0
+0	14165	30	#line 14165 "NXCDefs.h"
+0	4441	30	#line 4441 "NXCDefs.h"
+0	4442	30		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorHTGyro_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorHTGyro_inline_main, 1
+0	4441	34	#line 4441 "NXCDefs.h"
+0	14165	34	#line 14165 "NXCDefs.h"
+0	14166	34	#line 14166 "NXCDefs.h"
+0	14166	34	#line 14166 "NXCDefs.h"
+0	4459	34	#line 4459 "NXCDefs.h"
+0	4460	34	#pragma macro 4
+0	4460	34		mov __ResetSensorPort, __SetSensorHTGyro_7qG2_port_7qG2_000_inline_main
+0	4460	36		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	8551	38	#line 8551 "NXCDefs.h"
+0	4459	38	#line 4459 "NXCDefs.h"
+0	14166	38	#line 14166 "NXCDefs.h"
+0	134	38	#line 134 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	135	38	#line 135 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	136	38		set __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main, 3
+0	135	41	#line 135 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	135	41	#line 135 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	136	41		mov __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main, __constVal1
+0	4523	43	#line 4523 "NXCDefs.h"
+0	4524	43		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4523	45	#line 4523 "NXCDefs.h"
+0	4523	45	#line 4523 "NXCDefs.h"
+0	4524	45		mov __DU0SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_bIsPowered_7qG2_000_inline_main
+0	4523	47	#line 4523 "NXCDefs.h"
+0	4524	47		tst 5, __D0SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4523	50	#line 4523 "NXCDefs.h"
+0	4524	50		brtst 4, __004__ASM_Label_36, __D0SetSensorLowspeed_inline_main
+0	4523	53	#line 4523 "NXCDefs.h"
+0	4524	53		set __DU0SetSensorLowspeed_inline_main, 11
+0	4523	56	#line 4523 "NXCDefs.h"
+0	4523	56	#line 4523 "NXCDefs.h"
+0	4524	56		jmp __004__ASM_Label_37
+0	4523	58	#line 4523 "NXCDefs.h"
+0	4524	58		set __DU0SetSensorLowspeed_inline_main, 10
+0	4523	61	#line 4523 "NXCDefs.h"
+0	4523	61	#line 4523 "NXCDefs.h"
+0	4524	61		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __DU0SetSensorLowspeed_inline_main
+0	4428	63	#line 4428 "NXCDefs.h"
+0	4429	63		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4428	67	#line 4428 "NXCDefs.h"
+0	4523	67	#line 4523 "NXCDefs.h"
+0	4524	67	#line 4524 "NXCDefs.h"
+0	4525	67		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4524	69	#line 4524 "NXCDefs.h"
+0	4524	69	#line 4524 "NXCDefs.h"
+0	4525	69		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, 0
+0	4524	72	#line 4524 "NXCDefs.h"
+0	4441	72	#line 4441 "NXCDefs.h"
+0	4442	72		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLowspeed_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLowspeed_inline_main, 1
+0	4441	76	#line 4441 "NXCDefs.h"
+0	4524	76	#line 4524 "NXCDefs.h"
+0	4525	76	#line 4525 "NXCDefs.h"
+0	4525	76	#line 4525 "NXCDefs.h"
+0	4459	76	#line 4459 "NXCDefs.h"
+0	4460	76	#pragma macro 4
+0	4460	76		mov __ResetSensorPort, __SetSensorLowspeed_7qG2_port_7qG2_000_inline_main
+0	4460	78		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	8642	80	#line 8642 "NXCDefs.h"
+0	4459	80	#line 4459 "NXCDefs.h"
+0	4525	80	#line 4525 "NXCDefs.h"
+0	135	80	#line 135 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	136	80	#line 136 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	137	80		set __Wait_7qG2_ms_7qG2_000_inline_main, 1000
+0	136	83	#line 136 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	8869	83	#line 8869 "NXCDefs.h"
+0	8870	83		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	85	#line 8869 "NXCDefs.h"
+0	136	85	#line 136 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	140	85	#line 140 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	141	85		subcall calibracion, __calibracion_return
+0	140	87	#line 140 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	141	87	#line 141 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	142	87		set __Wait_7qG2_ms_7qG2_000_inline_main, 3000
+0	141	90	#line 141 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	8869	90	#line 8869 "NXCDefs.h"
+0	8870	90		waitv __Wait_7qG2_ms_7qG2_000_inline_main
+0	8869	92	#line 8869 "NXCDefs.h"
+0	141	92	#line 141 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	142	92	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	92		set __signed_stack_001main, 500
+0	142	95	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	142	95	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	95		set __signed_stack_002main, 50
+0	142	98	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	142	98	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	98		set __signed_stack_003main, 4
+0	142	101	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	142	101	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	101		set __D0main, 0
+0	142	104	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	104		acquire __SPTArgsMutex
+0	142	105	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	105		mov __SPTArgs.Frequency, __signed_stack_001main
+0	142	107	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	107		mov __SPTArgs.Duration, __signed_stack_002main
+0	142	109	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	109		mov __SPTArgs.Volume, __signed_stack_003main
+0	142	111	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	111		mov __SPTArgs.Loop, __D0main
+0	142	113	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	113		syscall 10, __SPTArgs
+0	142	116	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	116		mov __D0main, __SPTArgs.Result
+0	142	118	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	143	118		release __SPTArgsMutex
+0	142	119	#line 142 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	6921	119	#line 6921 "NXCDefs.h"
+0	6922	119	#pragma macro 6
+0	6922	119		acquire __PointOutMutex
+0	6922	120		mov __PointOutArgs.Location.X, __constVal200
+0	6922	122		mov __PointOutArgs.Location.Y, __constVal200
+0	6922	124		mov __PointOutArgs.Options, __constVal1
+0	6922	126		syscall 14, __PointOutArgs
+0	6922	129		release __PointOutMutex
+0	8707	130	#line 8707 "NXCDefs.h"
+0	6921	130	#line 6921 "NXCDefs.h"
+0	144	130	#line 144 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+0	145	130		exit 0, 0
+1	5724	0		setin __constVal1, __ResetSensorPort, 5
+1	5726	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	5727	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	5728	11		subret ____ResetSensorSubroutine_return
+2	43	0	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	44	0	#pragma macro 7
+2	44	0		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+2	7560	23	#line 7560 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	43	23	#line 43 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	45	23	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	23		set __signed_stack_001calibracion, 0
+2	45	26	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	45	26	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	26		set __signed_stack_002calibracion, 56
+2	45	29	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	45	29	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	29		strcat __strbufcalibracion, __constStr0009
+2	45	33	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	33		acquire __TextOutMutex
+2	45	34	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	34		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	45	36	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	36		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	45	38	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	38		set __TextOutArgs.Options, 0
+2	45	41	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	41		mov __TextOutArgs.Text, __strbufcalibracion
+2	45	43	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	43		syscall 13, __TextOutArgs
+2	45	46	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	46		mov __D0calibracion, __TextOutArgs.Result
+2	45	48	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	48		release __TextOutMutex
+2	45	49	#line 45 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	49	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	47	49		set __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 1
+2	46	52	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	52	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	47	52		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion, __constVal0
+2	14222	54	#line 14222 "NXCDefs.h"
+2	14223	54		getin __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 2
+2	14224	58		sub __D0SensorHTGyro_inline_calibracion, __D0SensorHTGyro_inline_calibracion, __constVal600
+2	14225	62		sub __calibracion_7qG2_g_7qG2_000, __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion
+2	14226	66	#line 14226 "NXCDefs.h"
+2	46	66	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	66	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	46	66	#line 46 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	47	66	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	48	66		mov __calibracion_7qG2_gMax_7qG2_000, __calibracion_7qG2_g_7qG2_000
+2	47	68	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	47	68	#line 47 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	48	68	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	49	68		mov __calibracion_7qG2_gMin_7qG2_000, __calibracion_7qG2_g_7qG2_000
+2	48	70	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	48	70	#line 48 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	49	70	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	50	70		mov gOffset, __constVal0
+2	49	72	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	49	72	#line 49 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	50	72	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	72		set __calibracion_7qG2_i_7qG2_000, 0
+2	50	75	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	50	75	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	75		mov __signed_stack_001calibracion, __calibracion_7qG2_i_7qG2_000
+2	50	77	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	50	77	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	77		set __D0calibracion, 40
+2	50	80	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	80		cmp 0, __D0calibracion, __signed_stack_001calibracion, __D0calibracion
+2	50	84	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	84		brtst 4, __ASM_Label_631, __D0calibracion
+2	50	87	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	87		jmp __ASM_Label_632
+2	50	89	#line 50 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	89		add __calibracion_7qG2_i_7qG2_000, __calibracion_7qG2_i_7qG2_000, __constVal1
+2	51	93	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	52	93		jmp __ASM_Label_630
+2	51	95	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	52	95		set __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 1
+2	51	98	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	98	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	52	98		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion, __constVal0
+2	14222	100	#line 14222 "NXCDefs.h"
+2	14223	100		getin __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_port_7qG2_000_inline_calibracion, 2
+2	14224	104		sub __D0SensorHTGyro_inline_calibracion, __D0SensorHTGyro_inline_calibracion, __constVal600
+2	14225	108		sub __calibracion_7qG2_g_7qG2_000, __D0SensorHTGyro_inline_calibracion, __SensorHTGyro_7qG2_offset_7qG2_000_inline_calibracion
+2	14226	112	#line 14226 "NXCDefs.h"
+2	51	112	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	112	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	51	112	#line 51 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	53	112	#line 53 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	54	112		mov __signed_stack_001calibracion, __calibracion_7qG2_g_7qG2_000
+2	53	114	#line 53 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	53	114	#line 53 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	54	114		mov __D0calibracion, __calibracion_7qG2_gMax_7qG2_000
+2	53	116	#line 53 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	54	116		cmp 1, __D0calibracion, __signed_stack_001calibracion, __D0calibracion
+2	54	120	#line 54 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	55	120		brtst 4, __ASM_Label_644, __D0calibracion
+2	54	123	#line 54 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	55	123		mov __calibracion_7qG2_gMax_7qG2_000, __calibracion_7qG2_g_7qG2_000
+2	54	125	#line 54 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	54	125	#line 54 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	56	125	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	57	125		jmp __ASM_Label_647
+2	56	127	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	57	127		mov __signed_stack_001calibracion, __calibracion_7qG2_g_7qG2_000
+2	56	129	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	56	129	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	57	129		mov __D0calibracion, __calibracion_7qG2_gMin_7qG2_000
+2	56	131	#line 56 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	57	131		cmp 0, __D0calibracion, __signed_stack_001calibracion, __D0calibracion
+2	58	135	#line 58 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	59	135		brtst 4, __ASM_Label_650, __D0calibracion
+2	58	138	#line 58 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	59	138		mov __calibracion_7qG2_gMin_7qG2_000, __calibracion_7qG2_g_7qG2_000
+2	58	140	#line 58 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	58	140	#line 58 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	61	140	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	61	140	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	61	140	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	61	140	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	62	140		add gOffset, gOffset, __calibracion_7qG2_g_7qG2_000
+2	61	144	#line 61 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	62	144	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	63	144		set __Wait_7qG2_ms_7qG2_000_inline_calibracion, 50
+2	62	147	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	8869	147	#line 8869 "NXCDefs.h"
+2	8870	147		waitv __Wait_7qG2_ms_7qG2_000_inline_calibracion
+2	8869	149	#line 8869 "NXCDefs.h"
+2	62	149	#line 62 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	64	149	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	149		jmp __ASM_Label_633
+2	64	151	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	64	151	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	64	151	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	64	151	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	64	151	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	151		sub __signed_stack_001calibracion, __calibracion_7qG2_gMax_7qG2_000, __calibracion_7qG2_gMin_7qG2_000
+2	64	155	#line 64 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	155	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	155		set __D0calibracion, 1
+2	65	158	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	158		cmp 1, __D0calibracion, __signed_stack_001calibracion, __D0calibracion
+2	65	162	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	162		brtst 4, __ASM_Label_615, __D0calibracion
+2	65	165	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	165		jmp __ASM_Label_614
+2	65	167	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	167	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	167		mov __float_stack_001calibracion, gOffset
+2	65	169	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	169	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	169		mov __DF0calibracion, __constVal40
+2	65	171	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	171		div __float_stack_001calibracion, __float_stack_001calibracion, __DF0calibracion
+2	65	175	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	175	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	175		mov __DF0calibracion, __constVal1
+2	65	177	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	66	177		add gOffset, __float_stack_001calibracion, __DF0calibracion
+2	65	181	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	65	181	#line 65 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	67	181	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	181		set __signed_stack_001calibracion, 0
+2	67	184	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	67	184	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	184		set __signed_stack_002calibracion, 32
+2	67	187	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	67	187	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	187		strcat __strbufcalibracion, __constStr0010
+2	67	191	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	191		acquire __TextOutMutex
+2	67	192	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	192		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	67	194	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	194		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	67	196	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	196		set __TextOutArgs.Options, 0
+2	67	199	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	199		mov __TextOutArgs.Text, __strbufcalibracion
+2	67	201	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	201		syscall 13, __TextOutArgs
+2	67	204	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	204		mov __D0calibracion, __TextOutArgs.Result
+2	67	206	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	206		release __TextOutMutex
+2	67	207	#line 67 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	207	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	207		set __signed_stack_001calibracion, 24
+2	68	210	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	210	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	210		set __signed_stack_002calibracion, 32
+2	68	213	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	68	213	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	213		mov __DF0calibracion, gOffset
+2	68	215	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	215		acquire __TextOutMutex
+2	68	216	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	216		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	68	218	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	218		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	68	220	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	220		set __TextOutArgs.Options, 0
+2	68	223	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	223		numtostr __TextOutArgs.Text, __DF0calibracion
+2	68	226	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	226		syscall 13, __TextOutArgs
+2	68	229	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	229		mov __D0calibracion, __TextOutArgs.Result
+2	68	231	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	231		release __TextOutMutex
+2	68	232	#line 68 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	232	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	232		set __signed_stack_001calibracion, 0
+2	69	235	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	235	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	235		set __signed_stack_002calibracion, 24
+2	69	238	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	69	238	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	238		strcat __strbufcalibracion, __constStr0011
+2	69	242	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	242		acquire __TextOutMutex
+2	69	243	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	243		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	69	245	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	245		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	69	247	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	247		set __TextOutArgs.Options, 0
+2	69	250	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	250		mov __TextOutArgs.Text, __strbufcalibracion
+2	69	252	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	252		syscall 13, __TextOutArgs
+2	69	255	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	255		mov __D0calibracion, __TextOutArgs.Result
+2	69	257	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	257		release __TextOutMutex
+2	69	258	#line 69 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	258	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	258		set __signed_stack_001calibracion, 24
+2	70	261	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	261	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	261		set __signed_stack_002calibracion, 24
+2	70	264	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	70	264	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	264		mov __D0calibracion, __calibracion_7qG2_gMax_7qG2_000
+2	70	266	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	266		acquire __TextOutMutex
+2	70	267	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	267		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	70	269	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	269		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	70	271	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	271		set __TextOutArgs.Options, 0
+2	70	274	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	274		numtostr __TextOutArgs.Text, __D0calibracion
+2	70	277	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	277		syscall 13, __TextOutArgs
+2	70	280	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	280		mov __D0calibracion, __TextOutArgs.Result
+2	70	282	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	282		release __TextOutMutex
+2	70	283	#line 70 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	283	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	283		set __signed_stack_001calibracion, 0
+2	71	286	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	286	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	286		set __signed_stack_002calibracion, 16
+2	71	289	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	71	289	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	289		strcat __strbufcalibracion, __constStr0012
+2	71	293	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	293		acquire __TextOutMutex
+2	71	294	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	294		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	71	296	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	296		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	71	298	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	298		set __TextOutArgs.Options, 0
+2	71	301	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	301		mov __TextOutArgs.Text, __strbufcalibracion
+2	71	303	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	303		syscall 13, __TextOutArgs
+2	71	306	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	306		mov __D0calibracion, __TextOutArgs.Result
+2	71	308	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	308		release __TextOutMutex
+2	71	309	#line 71 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	309	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	309		set __signed_stack_001calibracion, 24
+2	72	312	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	312	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	312		set __signed_stack_002calibracion, 16
+2	72	315	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	72	315	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	315		mov __D0calibracion, __calibracion_7qG2_gMin_7qG2_000
+2	72	317	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	317		acquire __TextOutMutex
+2	72	318	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	318		mov __TextOutArgs.Location.X, __signed_stack_001calibracion
+2	72	320	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	320		mov __TextOutArgs.Location.Y, __signed_stack_002calibracion
+2	72	322	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	322		set __TextOutArgs.Options, 0
+2	72	325	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	325		numtostr __TextOutArgs.Text, __D0calibracion
+2	72	328	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	328		syscall 13, __TextOutArgs
+2	72	331	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	331		mov __D0calibracion, __TextOutArgs.Result
+2	72	333	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	73	333		release __TextOutMutex
+2	72	334	#line 72 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	78	334	#line 78 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+2	79	334		subret __calibracion_return
+3	149	0	#line 149 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	149	0	#line 149 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	151	0	#line 151 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	152	0		set __Control_7qG2_cont_7qG2_000, 0
+3	151	3	#line 151 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	6921	3	#line 6921 "NXCDefs.h"
+3	6922	3	#pragma macro 6
+3	6922	3		acquire __PointOutMutex
+3	6922	4		mov __PointOutArgs.Location.X, __constVal200
+3	6922	6		mov __PointOutArgs.Location.Y, __constVal200
+3	6922	8		mov __PointOutArgs.Options, __constVal1
+3	6922	10		syscall 14, __PointOutArgs
+3	6922	13		release __PointOutMutex
+3	8741	14	#line 8741 "NXCDefs.h"
+3	6921	14	#line 6921 "NXCDefs.h"
+3	155	14	#line 155 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	157	14	#line 157 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	157	14	#line 157 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	157	14	#line 157 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	157	14	#line 157 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	158	14	#line 158 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	159	14	#pragma macro 7
+3	159	14		setout __constVal0, 0, __constVal64
+3	8753	19	#line 8753 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	158	19	#line 158 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	159	19	#line 159 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	160	19	#pragma macro 7
+3	160	19		setout __constVal1, 0, __constVal64
+3	8756	24	#line 8756 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	159	24	#line 159 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	161	24	#line 161 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	162	24		set __D0Control, 1
+3	163	27	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	164	27		tst 5, __D0Control, __D0Control
+3	163	30	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	164	30		brtst 4, __ASM_Label_792, __D0Control
+3	163	33	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	164	33		mov __D0Control, __Control_7qG2_cont_7qG2_000
+3	163	35	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	164	35		add __Control_7qG2_cont_7qG2_000, __Control_7qG2_cont_7qG2_000, __constVal1
+3	163	39	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	164	39		mov __CalcularTiempo_7qG2_cont_7qG2_000_inline_Control, __D0Control
+3	121	41	#line 121 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	122	41		mov __signed_stack_001CalcularTiempo_inline_Control, __D0Control
+3	121	43	#line 121 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	121	43	#line 121 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	122	43		set __D0CalcularTiempo_inline_Control, 0
+3	121	46	#line 121 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	122	46		cmp 4, __D0CalcularTiempo_inline_Control, __signed_stack_001CalcularTiempo_inline_Control, __D0CalcularTiempo_inline_Control
+3	122	50	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	123	50		brtst 4, __001__ASM_Label_759, __D0CalcularTiempo_inline_Control
+3	122	53	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	123	53		mov dt, __constValf0P0165
+3	122	55	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	122	55	#line 122 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	123	55	#line 123 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	124	55		gettick tIni
+3	123	57	#line 123 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	123	57	#line 123 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	123	57	#line 123 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	57	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	57		jmp __001__ASM_Label_764
+3	125	59	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	59		gettick __unsigned_stack_001CalcularTiempo_inline_Control
+3	125	61	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	61	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	61	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	61		sub __signed_stack_001CalcularTiempo_inline_Control, __unsigned_stack_001CalcularTiempo_inline_Control, tIni
+3	125	65	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	65	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	65		mov __signed_stack_002CalcularTiempo_inline_Control, __CalcularTiempo_7qG2_cont_7qG2_000_inline_Control
+3	125	67	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	67	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	67		mov __DF0CalcularTiempo_inline_Control, __constVal1000
+3	125	69	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	69		mul __DF0CalcularTiempo_inline_Control, __signed_stack_002CalcularTiempo_inline_Control, __DF0CalcularTiempo_inline_Control
+3	125	73	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	126	73		div dt, __signed_stack_001CalcularTiempo_inline_Control, __DF0CalcularTiempo_inline_Control
+3	125	77	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	77	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	125	77	#line 125 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	130	77	#line 130 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	163	77	#line 163 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	165	77	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	166	77		mov __signed_stack_001Control, __Control_7qG2_cont_7qG2_000
+3	165	79	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	165	79	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	166	79		set __D0Control, 20
+3	165	82	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	166	82		mod __signed_stack_001Control, __signed_stack_001Control, __D0Control
+3	165	86	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	165	86	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	166	86		set __D0Control, 0
+3	165	89	#line 165 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	166	89		cmp 4, __D0Control, __signed_stack_001Control, __D0Control
+3	166	93	#line 166 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	167	93		brtst 4, __ASM_Label_799, __D0Control
+3	6921	96	#line 6921 "NXCDefs.h"
+3	6922	96	#pragma macro 6
+3	6922	96		acquire __PointOutMutex
+3	6922	97		mov __PointOutArgs.Location.X, __constVal200
+3	6922	99		mov __PointOutArgs.Location.Y, __constVal200
+3	6922	101		mov __PointOutArgs.Options, __constVal1
+3	6922	103		syscall 14, __PointOutArgs
+3	6922	106		release __PointOutMutex
+3	8869	107	#line 8869 "NXCDefs.h"
+3	6921	107	#line 6921 "NXCDefs.h"
+3	166	107	#line 166 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	107	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	107	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	107		set __SensorHTGyro_7qG2_port_7qG2_000_inline_Control, 1
+3	173	110	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	110	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	110		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_Control, __constVal0
+3	14222	112	#line 14222 "NXCDefs.h"
+3	14223	112		getin __D0SensorHTGyro_inline_Control, __SensorHTGyro_7qG2_port_7qG2_000_inline_Control, 2
+3	14224	116		sub __D0SensorHTGyro_inline_Control, __D0SensorHTGyro_inline_Control, __constVal600
+3	14225	120		sub angGyro, __D0SensorHTGyro_inline_Control, __SensorHTGyro_7qG2_offset_7qG2_000_inline_Control
+3	14226	124	#line 14226 "NXCDefs.h"
+3	173	124	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	124	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	124	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	173	124	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	124		set __Wait_7qG2_ms_7qG2_000_inline_Control, 2
+3	173	127	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	8869	127	#line 8869 "NXCDefs.h"
+3	8870	127		waitv __Wait_7qG2_ms_7qG2_000_inline_Control
+3	8869	129	#line 8869 "NXCDefs.h"
+3	173	129	#line 173 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	129	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	129		mov __float_stack_001Control, angGyro
+3	174	131	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	131	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	131		mov __SensorHTGyro_7qG2_port_7qG2_000_inline_Control, __constVal1
+3	174	133	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	133	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	133		mov __SensorHTGyro_7qG2_offset_7qG2_000_inline_Control, __constVal0
+3	14222	135	#line 14222 "NXCDefs.h"
+3	14223	135		getin __D0SensorHTGyro_inline_Control, __SensorHTGyro_7qG2_port_7qG2_000_inline_Control, 2
+3	14224	139		sub __D0SensorHTGyro_inline_Control, __D0SensorHTGyro_inline_Control, __constVal600
+3	14225	143		sub __D0Control, __D0SensorHTGyro_inline_Control, __SensorHTGyro_7qG2_offset_7qG2_000_inline_Control
+3	14226	147	#line 14226 "NXCDefs.h"
+3	174	147	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	147	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	147		add angGyro, __float_stack_001Control, __D0Control
+3	174	151	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	174	151	#line 174 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	151	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	151		mov __float_stack_001Control, angGyro
+3	175	153	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	153	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	153		mov __DF0Control, __constVal2
+3	175	155	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	155		div __float_stack_001Control, __float_stack_001Control, __DF0Control
+3	175	159	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	159	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	159	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	159		sub velGyro, __float_stack_001Control, gOffset
+3	175	163	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	175	163	#line 175 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	163	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	163	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	163	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	163	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	163		mul __float_stack_001Control, gOffset, __constValf0P999
+3	176	167	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	167	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	167		mov __float_stack_002Control, __constValf0P001
+3	176	169	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	169	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	169	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	169	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	169	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	169		add __DF0Control, velGyro, gOffset
+3	176	173	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	173		mul __DF0Control, __float_stack_002Control, __DF0Control
+3	176	177	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	177		add gOffset, __float_stack_001Control, __DF0Control
+3	176	181	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	176	181	#line 176 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	181	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	178	181		mov __float_stack_001Control, angGyro
+3	177	183	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	183	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	183	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	183	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	183	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	178	183		mul __DF0Control, velGyro, dt
+3	177	187	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	178	187		add ang, __float_stack_001Control, __DF0Control
+3	177	191	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	177	191	#line 177 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	182	191	#line 182 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	183	191		add n, n, __constVal1
+3	182	195	#line 182 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	183	195	#line 183 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	184	195		mov __signed_stack_001Control, n
+3	183	197	#line 183 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	183	197	#line 183 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	184	197		set __D0Control, 7
+3	183	200	#line 183 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	184	200		cmp 4, __D0Control, __signed_stack_001Control, __D0Control
+3	184	204	#line 184 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	185	204		brtst 4, __ASM_Label_822, __D0Control
+3	184	207	#line 184 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	185	207		set n, 0
+3	184	210	#line 184 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	184	210	#line 184 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	188	210	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	188	210	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	189	210		mov __signed_stack_001Control, n
+3	188	212	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	188	212	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	189	212		getout __signed_stack_002Control, __constVal1, 14
+3	188	216	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	188	216	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	189	216		getout __D0Control, __constVal0, 14
+3	188	220	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	189	220		add __D0Control, __signed_stack_002Control, __D0Control
+3	188	224	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	189	224		replace encoder, encoder, __signed_stack_001Control, __D0Control
+3	188	229	#line 188 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	190	229	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	191	229		mov __signed_stack_001Control, n
+3	190	231	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	190	231	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	191	231		set __D0Control, 1
+3	190	234	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	191	234		add n_comp, __signed_stack_001Control, __D0Control
+3	190	238	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	190	238	#line 190 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	191	238	#line 191 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	192	238		mov __signed_stack_001Control, n_comp
+3	191	240	#line 191 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	191	240	#line 191 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	192	240		set __D0Control, 7
+3	191	243	#line 191 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	192	243		cmp 4, __D0Control, __signed_stack_001Control, __D0Control
+3	192	247	#line 192 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	193	247		brtst 4, __ASM_Label_833, __D0Control
+3	192	250	#line 192 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	193	250		set n_comp, 0
+3	192	253	#line 192 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	192	253	#line 192 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	253	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	253	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	196	253		mov __signed_stack_001Control, n
+3	195	255	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	255	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	196	255		index __signed_stack_001Control, encoder, __signed_stack_001Control
+3	195	259	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	259	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	259	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	259	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	196	259		mul __float_stack_001Control, __signed_stack_001Control, degtorad
+3	195	263	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	263	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	263	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	196	263		mul y, __float_stack_001Control, radius
+3	195	267	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	195	267	#line 195 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	267	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	267		mov __signed_stack_001Control, n
+3	197	269	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	269	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	269		index __signed_stack_001Control, encoder, __signed_stack_001Control
+3	197	273	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	273	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	273	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	273		mov __signed_stack_002Control, n_comp
+3	197	275	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	275	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	275		index __D0Control, encoder, __signed_stack_002Control
+3	197	279	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	279	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	279		sub __signed_stack_001Control, __signed_stack_001Control, __D0Control
+3	197	283	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	283	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	283		mov __float_stack_002Control, dt
+3	197	285	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	285	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	285		set __D0Control, 6
+3	197	288	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	288		mul __DF0Control, __float_stack_002Control, __D0Control
+3	197	292	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	292		div __float_stack_001Control, __signed_stack_001Control, __DF0Control
+3	197	296	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	296	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	296	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	296		mul __float_stack_001Control, __float_stack_001Control, degtorad
+3	197	300	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	300	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	300	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	198	300		mul dy, __float_stack_001Control, radius
+3	197	304	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	197	304	#line 197 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	201	304	#line 201 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	201	304	#line 201 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	201	304	#line 201 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	304	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	304		set __signed_stack_001Control, 25
+3	205	307	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	307	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	307	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	307		mul __float_stack_001Control, __signed_stack_001Control, ang
+3	205	311	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	311	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	311	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	311	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	311	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	311		mul __DF0Control, __constValf0P23, velGyro
+3	205	315	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	315		add __float_stack_001Control, __float_stack_001Control, __DF0Control
+3	205	319	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	319	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	319	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	319	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	319	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	319		mul __DF0Control, __constValf24P6, dy
+3	205	323	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	323		add __float_stack_001Control, __float_stack_001Control, __DF0Control
+3	205	327	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	327	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	327	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	327	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	327	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	327		mul __DF0Control, __constValf272P8, y
+3	205	331	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	331		add u, __float_stack_001Control, __DF0Control
+3	205	335	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	205	335	#line 205 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	335	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	335	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	335	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	335	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	335		sub __signed_stack_001Control, u, __Control_7qG2_uAnt_7qG2_000
+3	206	339	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	339	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	339	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	339		div __Control_7qG2_du_7qG2_000, __signed_stack_001Control, dt
+3	206	343	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	206	343	#line 206 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	343	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	208	343		mov __signed_stack_001Control, u
+3	207	345	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	345	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	345	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	345	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	345	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	208	345		mul __DF0Control, __Control_7qG2_uAnt_7qG2_000, dt
+3	207	349	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	208	349		add __Control_7qG2_iu_7qG2_000, __signed_stack_001Control, __DF0Control
+3	207	353	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	207	353	#line 207 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	208	353	#line 208 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	209	353		mov __Control_7qG2_uAnt_7qG2_000, u
+3	208	355	#line 208 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	208	355	#line 208 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	355	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	355	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	355	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	355	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	355		mul __float_stack_001Control, __constValf0P0336, u
+3	210	359	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	359	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	359	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	359	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	359	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	359		mul __DF0Control, __constValf0P000504, __Control_7qG2_du_7qG2_000
+3	210	363	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	363		add __float_stack_001Control, __float_stack_001Control, __DF0Control
+3	210	367	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	367	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	367	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	367	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	367	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	367		mul __DF0Control, __constValf0P2688, __Control_7qG2_iu_7qG2_000
+3	210	371	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	371		add __float_stack_001Control, __float_stack_001Control, __DF0Control
+3	210	375	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	375	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	375	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	211	375		div u, __float_stack_001Control, radius
+3	210	379	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	210	379	#line 210 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	212	379	#line 212 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	213	379		mov __signed_stack_001Control, steering
+3	212	381	#line 212 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	212	381	#line 212 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	213	381		set __D0Control, 0
+3	212	384	#line 212 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	213	384		cmp 4, __D0Control, __signed_stack_001Control, __D0Control
+3	213	388	#line 213 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	388		brtst 4, __ASM_Label_870, __D0Control
+3	213	391	#line 213 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	391		mov __signed_stack_001Control, last_steering
+3	213	393	#line 213 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	213	393	#line 213 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	393		set __D0Control, 0
+3	213	396	#line 213 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	396		cmp 5, __D0Control, __signed_stack_001Control, __D0Control
+3	214	400	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	400		brtst 4, __ASM_Label_873, __D0Control
+3	214	403	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	403		getout __signed_stack_001Control, __constVal1, 14
+3	214	407	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	407	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	407		getout __D0Control, __constVal0, 14
+3	214	411	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	411		sub straight, __signed_stack_001Control, __D0Control
+3	214	415	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	214	415	#line 214 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	415	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	415	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	415		getout __signed_stack_001Control, __constVal1, 14
+3	215	419	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	419	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	419		getout __D0Control, __constVal0, 14
+3	215	423	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	423		sub __signed_stack_001Control, __signed_stack_001Control, __D0Control
+3	215	427	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	427	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	427	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	427		sub __signed_stack_001Control, __signed_stack_001Control, straight
+3	215	431	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	431	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	431	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	431		div __float_stack_001Control, __signed_stack_001Control, radius
+3	215	435	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	435	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	435		mov __DF0Control, __constVal10
+3	215	437	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	437		mul d_pwr, __float_stack_001Control, __DF0Control
+3	215	441	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	215	441	#line 215 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	441	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	217	441		jmp __ASM_Label_880
+3	216	443	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	443	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	443	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	443	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	217	443		div d_pwr, steering, __constValf0P00054
+3	216	447	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	216	447	#line 216 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	217	447	#line 217 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	217	447	#line 217 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	218	447		mov last_steering, steering
+3	217	449	#line 217 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	217	449	#line 217 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	220	449	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	220	449	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	220	449	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	220	449	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	449		add __D0Control, u, d_pwr
+3	220	453	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	453	#pragma macro 7
+3	221	453		setout __constVal0, 2, __D0Control, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	9528	476	#line 9528 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	220	476	#line 220 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	476	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	476	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	476	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	476	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	222	476		sub __D0Control, u, d_pwr
+3	221	480	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	222	480	#pragma macro 7
+3	222	480		setout __constVal1, 2, __D0Control, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	9543	503	#line 9543 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	221	503	#line 221 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	226	503	#line 226 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	227	503		mov __signed_stack_001Control, u
+3	226	505	#line 226 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	226	505	#line 226 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	227	505		set __D0Control, 100
+3	226	508	#line 226 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	227	508		cmp 1, __D0Control, __signed_stack_001Control, __D0Control
+3	227	512	#line 227 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	228	512		brtst 4, __ASM_Label_893, __D0Control
+3	227	515	#line 227 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	228	515		set u, 100
+3	227	518	#line 227 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	227	518	#line 227 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	228	518	#line 228 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	229	518		jmp __ASM_Label_896
+3	228	520	#line 228 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	229	520		mov __signed_stack_001Control, u
+3	228	522	#line 228 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	228	522	#line 228 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	229	522		mov __D0Control, __constValNeg100
+3	228	524	#line 228 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	229	524		cmp 0, __D0Control, __signed_stack_001Control, __D0Control
+3	229	528	#line 229 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	230	528		brtst 4, __ASM_Label_899, __D0Control
+3	229	531	#line 229 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	230	531		mov u, __constValNeg100
+3	229	533	#line 229 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	229	533	#line 229 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	238	533	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	238	533	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	238	533	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	533		set __signed_stack_001Control, 0
+3	238	536	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	238	536	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	536		set __signed_stack_002Control, 24
+3	238	539	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	238	539	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	539		mov __DF0Control, dt
+3	238	541	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	541		acquire __TextOutMutex
+3	238	542	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	542		mov __TextOutArgs.Location.X, __signed_stack_001Control
+3	238	544	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	544		mov __TextOutArgs.Location.Y, __signed_stack_002Control
+3	238	546	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	546		set __TextOutArgs.Options, 0
+3	238	549	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	549		numtostr __TextOutArgs.Text, __DF0Control
+3	238	552	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	552		syscall 13, __TextOutArgs
+3	238	555	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	555		mov __D0Control, __TextOutArgs.Result
+3	238	557	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	239	557		release __TextOutMutex
+3	238	558	#line 238 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	244	558	#line 244 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	245	558		jmp __ASM_Label_791
+3	244	560	#line 244 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	244	560	#line 244 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	245	560	#pragma macro 7
+3	245	560		setout __OUT_AB, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	9628	583	#line 9628 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	244	583	#line 244 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+3	245	583		exit -1, -1
+4	248	0	#line 248 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+4	249	0		arrinit encoder, __constVal0, n_max
+4	248	4	#line 248 "C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc"
+4	249	4		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc
+1	__ResetSensorSubroutine	133	NXTDefs.h
+2	calibracion	146	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc
+3	Control	482	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc
+4	__initialize_global_data	1068	C:\Users\Miguel\Desktop\MUAR\2_sem\lab_cont\CODIGOS_MARCE_NXC\src\ControlConEstados.nxc
