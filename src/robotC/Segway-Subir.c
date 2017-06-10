@@ -49,26 +49,28 @@ task main()
    //speed=0;
    //pivotar = -7;
    ClearTimer(T2);
-  	while(time1[T2]<2000){
-  speed =0;
+  	while(time1[T2]<10000){
+  speed =10;
   steering = 0;
   }
-  ClearTimer(T2);
-  	while(time1[T2]<2500){
-  speed =0;
-  steering = -20;
-  }
-
+ // nMotorEncoder[motorB] = 0; //clears motorB's encoder
+	//nMotorEncoder[motorC] = 0; //clears motorC's encoder
+ // ClearTimer(T2);
+ // 	while(time1[T2]<5000){
+ // speed =0;
+ // steering=-20;
+ // }
 //  ClearTimer(T2);
 //  	while(time1[T2]<5000){
 //  speed =0;
 //  steering = 10;
 //  }
-   ClearTimer(T2);
-  	while(time1[T2]<5000){
-  speed =0;
-  steering = 0;
-  }
+
+  // ClearTimer(T2);
+  //	while(time1[T2]<5000){
+  //speed =0;
+  //steering = 0;
+  //}
  /* The default is 0 for both, which means it stands still.
 
   For further instructions:

@@ -1,5 +1,12 @@
 # README #
 
+
+
+para datalogging
+
+http://www.robotc.net/forums/viewtopic.php?p=11876
+
+
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
